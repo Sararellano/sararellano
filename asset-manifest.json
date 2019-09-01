@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1714f310.chunk.css",
-    "main.js": "/static/js/main.833b6d98.chunk.js",
-    "main.js.map": "/static/js/main.833b6d98.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.22cda662.js",
-    "runtime~main.js.map": "/static/js/runtime~main.22cda662.js.map",
-    "static/js/2.b8f02463.chunk.js": "/static/js/2.b8f02463.chunk.js",
-    "static/js/2.b8f02463.chunk.js.map": "/static/js/2.b8f02463.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3684dd60a42db3c5221507c83da17a1e.js": "/precache-manifest.3684dd60a42db3c5221507c83da17a1e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1714f310.chunk.css.map": "/static/css/main.1714f310.chunk.css.map",
-    "static/media/CV-SaraArellano.pdf": "/static/media/CV-SaraArellano.68b57c63.pdf",
-    "static/media/Inicio.css": "/static/media/inicio.75065b03.jpg",
-    "static/media/jsfisio.jpg": "/static/media/jsfisio.6a89454b.jpg",
-    "static/media/SobreMi.css": "/static/media/sararellano.0c305621.jpg"
+    "main.css": "/sararellano/static/css/main.474ffb5e.chunk.css",
+    "main.js": "/sararellano/static/js/main.1e42d48c.chunk.js",
+    "main.js.map": "/sararellano/static/js/main.1e42d48c.chunk.js.map",
+    "runtime~main.js": "/sararellano/static/js/runtime~main.e0f338f5.js",
+    "runtime~main.js.map": "/sararellano/static/js/runtime~main.e0f338f5.js.map",
+    "static/js/2.b8f02463.chunk.js": "/sararellano/static/js/2.b8f02463.chunk.js",
+    "static/js/2.b8f02463.chunk.js.map": "/sararellano/static/js/2.b8f02463.chunk.js.map",
+    "index.html": "/sararellano/index.html",
+    "precache-manifest.15f1c973e797fff4795fabd8bd72d1c1.js": "/sararellano/precache-manifest.15f1c973e797fff4795fabd8bd72d1c1.js",
+    "service-worker.js": "/sararellano/service-worker.js",
+    "static/css/main.474ffb5e.chunk.css.map": "/sararellano/static/css/main.474ffb5e.chunk.css.map",
+    "static/media/CV-SaraArellano.pdf": "/sararellano/static/media/CV-SaraArellano.68b57c63.pdf",
+    "static/media/Inicio.css": "/sararellano/static/media/inicio.75065b03.jpg",
+    "static/media/jsfisio.jpg": "/sararellano/static/media/jsfisio.6a89454b.jpg",
+    "static/media/SobreMi.css": "/sararellano/static/media/sararellano.0c305621.jpg"
   }
 }
