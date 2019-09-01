@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/github.com/sararellano.github.io/static/css/main.0ad2e37f.chunk.css",
-    "main.js": "/github.com/sararellano.github.io/static/js/main.459f3487.chunk.js",
-    "main.js.map": "/github.com/sararellano.github.io/static/js/main.459f3487.chunk.js.map",
-    "runtime~main.js": "/github.com/sararellano.github.io/static/js/runtime~main.db98ae07.js",
-    "runtime~main.js.map": "/github.com/sararellano.github.io/static/js/runtime~main.db98ae07.js.map",
-    "static/js/2.b8f02463.chunk.js": "/github.com/sararellano.github.io/static/js/2.b8f02463.chunk.js",
-    "static/js/2.b8f02463.chunk.js.map": "/github.com/sararellano.github.io/static/js/2.b8f02463.chunk.js.map",
-    "index.html": "/github.com/sararellano.github.io/index.html",
-    "precache-manifest.985d603395fce9a4ec83059485a6386b.js": "/github.com/sararellano.github.io/precache-manifest.985d603395fce9a4ec83059485a6386b.js",
-    "service-worker.js": "/github.com/sararellano.github.io/service-worker.js",
-    "static/css/main.0ad2e37f.chunk.css.map": "/github.com/sararellano.github.io/static/css/main.0ad2e37f.chunk.css.map",
-    "static/media/CV-SaraArellano.pdf": "/github.com/sararellano.github.io/static/media/CV-SaraArellano.68b57c63.pdf",
-    "static/media/Inicio.css": "/github.com/sararellano.github.io/static/media/inicio.75065b03.jpg",
-    "static/media/jsfisio.jpg": "/github.com/sararellano.github.io/static/media/jsfisio.6a89454b.jpg",
-    "static/media/SobreMi.css": "/github.com/sararellano.github.io/static/media/sararellano.0c305621.jpg"
+    "main.css": "/github.io/sararellano.github.io/static/css/main.70d754c2.chunk.css",
+    "main.js": "/github.io/sararellano.github.io/static/js/main.ad2cd94f.chunk.js",
+    "main.js.map": "/github.io/sararellano.github.io/static/js/main.ad2cd94f.chunk.js.map",
+    "runtime~main.js": "/github.io/sararellano.github.io/static/js/runtime~main.c27959a9.js",
+    "runtime~main.js.map": "/github.io/sararellano.github.io/static/js/runtime~main.c27959a9.js.map",
+    "static/js/2.b8f02463.chunk.js": "/github.io/sararellano.github.io/static/js/2.b8f02463.chunk.js",
+    "static/js/2.b8f02463.chunk.js.map": "/github.io/sararellano.github.io/static/js/2.b8f02463.chunk.js.map",
+    "index.html": "/github.io/sararellano.github.io/index.html",
+    "precache-manifest.82710d49394d3f52a45b9112a0cc91f9.js": "/github.io/sararellano.github.io/precache-manifest.82710d49394d3f52a45b9112a0cc91f9.js",
+    "service-worker.js": "/github.io/sararellano.github.io/service-worker.js",
+    "static/css/main.70d754c2.chunk.css.map": "/github.io/sararellano.github.io/static/css/main.70d754c2.chunk.css.map",
+    "static/media/CV-SaraArellano.pdf": "/github.io/sararellano.github.io/static/media/CV-SaraArellano.68b57c63.pdf",
+    "static/media/Inicio.css": "/github.io/sararellano.github.io/static/media/inicio.75065b03.jpg",
+    "static/media/jsfisio.jpg": "/github.io/sararellano.github.io/static/media/jsfisio.6a89454b.jpg",
+    "static/media/SobreMi.css": "/github.io/sararellano.github.io/static/media/sararellano.0c305621.jpg"
   }
 }
