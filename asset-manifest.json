@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sararellano.github.io/static/css/main.807a8f96.chunk.css",
-    "main.js": "/sararellano.github.io/static/js/main.087b3277.chunk.js",
-    "main.js.map": "/sararellano.github.io/static/js/main.087b3277.chunk.js.map",
-    "runtime~main.js": "/sararellano.github.io/static/js/runtime~main.8c3709cb.js",
-    "runtime~main.js.map": "/sararellano.github.io/static/js/runtime~main.8c3709cb.js.map",
-    "static/js/2.b8f02463.chunk.js": "/sararellano.github.io/static/js/2.b8f02463.chunk.js",
-    "static/js/2.b8f02463.chunk.js.map": "/sararellano.github.io/static/js/2.b8f02463.chunk.js.map",
-    "index.html": "/sararellano.github.io/index.html",
-    "precache-manifest.22e7cc4152284619396ed8752b8d82f9.js": "/sararellano.github.io/precache-manifest.22e7cc4152284619396ed8752b8d82f9.js",
-    "service-worker.js": "/sararellano.github.io/service-worker.js",
-    "static/css/main.807a8f96.chunk.css.map": "/sararellano.github.io/static/css/main.807a8f96.chunk.css.map",
-    "static/media/CV-SaraArellano.pdf": "/sararellano.github.io/static/media/CV-SaraArellano.68b57c63.pdf",
-    "static/media/Inicio.css": "/sararellano.github.io/static/media/inicio.75065b03.jpg",
-    "static/media/jsfisio.jpg": "/sararellano.github.io/static/media/jsfisio.6a89454b.jpg",
-    "static/media/SobreMi.css": "/sararellano.github.io/static/media/sararellano.0c305621.jpg"
+    "main.css": "/static/css/main.1714f310.chunk.css",
+    "main.js": "/static/js/main.833b6d98.chunk.js",
+    "main.js.map": "/static/js/main.833b6d98.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.22cda662.js",
+    "runtime~main.js.map": "/static/js/runtime~main.22cda662.js.map",
+    "static/js/2.b8f02463.chunk.js": "/static/js/2.b8f02463.chunk.js",
+    "static/js/2.b8f02463.chunk.js.map": "/static/js/2.b8f02463.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3684dd60a42db3c5221507c83da17a1e.js": "/precache-manifest.3684dd60a42db3c5221507c83da17a1e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1714f310.chunk.css.map": "/static/css/main.1714f310.chunk.css.map",
+    "static/media/CV-SaraArellano.pdf": "/static/media/CV-SaraArellano.68b57c63.pdf",
+    "static/media/Inicio.css": "/static/media/inicio.75065b03.jpg",
+    "static/media/jsfisio.jpg": "/static/media/jsfisio.6a89454b.jpg",
+    "static/media/SobreMi.css": "/static/media/sararellano.0c305621.jpg"
   }
 }
