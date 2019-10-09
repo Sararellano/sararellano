@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sararellano/static/css/main.b36cdcaa.chunk.css",
-    "main.js": "/sararellano/static/js/main.80796e39.chunk.js",
-    "main.js.map": "/sararellano/static/js/main.80796e39.chunk.js.map",
+    "main.js": "/sararellano/static/js/main.ffda5497.chunk.js",
+    "main.js.map": "/sararellano/static/js/main.ffda5497.chunk.js.map",
     "runtime~main.js": "/sararellano/static/js/runtime~main.e0f338f5.js",
     "runtime~main.js.map": "/sararellano/static/js/runtime~main.e0f338f5.js.map",
     "static/js/2.41ecf84f.chunk.js": "/sararellano/static/js/2.41ecf84f.chunk.js",
     "static/js/2.41ecf84f.chunk.js.map": "/sararellano/static/js/2.41ecf84f.chunk.js.map",
     "index.html": "/sararellano/index.html",
-    "precache-manifest.49e6202828f16a06bf56c4144a0318cf.js": "/sararellano/precache-manifest.49e6202828f16a06bf56c4144a0318cf.js",
+    "precache-manifest.351982b1230fe816d75f4629978b19e0.js": "/sararellano/precache-manifest.351982b1230fe816d75f4629978b19e0.js",
     "service-worker.js": "/sararellano/service-worker.js",
     "static/css/main.b36cdcaa.chunk.css.map": "/sararellano/static/css/main.b36cdcaa.chunk.css.map",
     "static/media/CV-SaraArellano.pdf": "/sararellano/static/media/CV-SaraArellano.554ee10f.pdf",
-    "static/media/construccion.jpg": "/sararellano/static/media/construccion.5d8104d6.jpg",
+    "static/media/gear-audiovisuals.jpg": "/sararellano/static/media/gear-audiovisuals.edf2203d.jpg",
     "static/media/Inicio.css": "/sararellano/static/media/inicio.75065b03.jpg",
     "static/media/jsfisio.jpg": "/sararellano/static/media/jsfisio.6a89454b.jpg",
     "static/media/SobreMi.css": "/sararellano/static/media/sararellano.0c305621.jpg"

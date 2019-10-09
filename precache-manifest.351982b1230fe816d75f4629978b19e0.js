@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d801ff5df13eb031c9d9a3c032413dcb",
+    "revision": "6f0ab611fb91dcc1a65e636a3d003b51",
     "url": "/sararellano/index.html"
   },
   {
-    "revision": "d392a19eb41153cfab17",
+    "revision": "8bc1d2b758c0d93de2e8",
     "url": "/sararellano/static/css/main.b36cdcaa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sararellano/static/js/2.41ecf84f.chunk.js"
   },
   {
-    "revision": "d392a19eb41153cfab17",
-    "url": "/sararellano/static/js/main.80796e39.chunk.js"
+    "revision": "8bc1d2b758c0d93de2e8",
+    "url": "/sararellano/static/js/main.ffda5497.chunk.js"
   },
   {
     "revision": "f2855cc37f861a04e26c",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sararellano/static/media/CV-SaraArellano.554ee10f.pdf"
   },
   {
-    "revision": "5d8104d665e5afdc5e9441be88fba076",
-    "url": "/sararellano/static/media/construccion.5d8104d6.jpg"
+    "revision": "edf2203d3ebd3ab4285be1f998651b06",
+    "url": "/sararellano/static/media/gear-audiovisuals.edf2203d.jpg"
   },
   {
     "revision": "75065b033be0819d223ff931f7116895",
