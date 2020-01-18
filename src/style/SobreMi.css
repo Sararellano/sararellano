@@ -1,0 +1,83 @@
+@media(max-width: 576px) {
+    .info-text {
+        padding-left: 10px!important;
+    } 
+}
+
+.SobreMi {
+    padding-top: 50px;
+}
+.SobreMi-content {
+    justify-content: center;
+}
+.profile-pic {
+    border: 2px solid #00897B;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/sararellano.jpg);
+    margin-bottom: 20px;
+}
+.info-block{
+    margin-bottom: 14px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+}
+.info-icon {
+    height: 57px;
+    min-width: 57px;
+    background: #00897B;
+    float: left;
+}
+.svg-inline--fa {
+    color: #fff;
+    font-size: 22px;
+    height: 100%;
+}
+.hvr-trim {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.hvr-trim:before {
+    content: '';
+    position: absolute;
+    border: #fff solid 4px;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.info-block:hover .hvr-trim:before {
+    opacity: 1;
+}
+.info-text {
+    padding-left: 30px;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: left;
+}
+.info-text span {
+    display: block;
+    margin-bottom: 5px;
+}
+.description {
+    margin-top: 30px;
+    text-align: left;
+    padding: 15px;
+}

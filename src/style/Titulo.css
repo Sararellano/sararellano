@@ -1,0 +1,26 @@
+.title {
+    margin-bottom: 60px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+}
+.title:before {
+    border-top: 1px solid #b3b2b2;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.title h4 {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #00897B;
+    color: #363636;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}

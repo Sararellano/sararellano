@@ -1,0 +1,23 @@
+.Skills {
+    padding-top: 50px;
+}
+.progress {
+    margin: 15px;
+    height: 1.5rem;
+    font-size: .95rem;
+    border-radius: .5rem;
+    background-color: #d0d0d0;
+}
+.progress-bar {
+    text-align: left;
+    padding: 10px;
+    transition: width 6s ease;
+}
+.bar1 .progress-bar, .bar3 .progress-bar, .bar5 .progress-bar,
+.bar7 .progress-bar, .bar9 .progress-bar, .bar11 .progress-bar, .bar13 .progress-bar {
+    background-color: #00897B;
+}
+.bar2 .progress-bar, .bar4 .progress-bar, .bar6 .progress-bar,
+.bar8 .progress-bar, .bar10 .progress-bar, .bar12 .progress-bar, .bar14 .progress-bar {
+    background-color: #62b7ae;
+}
