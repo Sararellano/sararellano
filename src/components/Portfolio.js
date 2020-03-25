@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Titulo from './Titulo';
 import jsFisio from '../images/jsfisio.jpg'
-import GEAR from '../images/gear-audiovisuals.jpg'
+import GEAR from '../images/gear-audiovisuals.png'
 
 import '../style/Portfolio.css';
 import '../style/index.css';
