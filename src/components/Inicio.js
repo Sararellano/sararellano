@@ -30,7 +30,7 @@ class Inicio extends Component {
                                         <h2>Hello World! I'm</h2>
                                         <h1>Sara Arellano</h1>
                                         <h3>Frontend Developer</h3>
-                                        <a className="download-link download-btn" href={downloadCV} download="SararellanoCV">Download CV</a>
+                                        <a className="download-link download-btn" href={downloadCV} target="_blank" rel="noopener noreferrer">Download CV</a>
                                         <div className="scroll-down">
                                             <a href="#SobreMi">
                                                 <div className="scroll-icon">

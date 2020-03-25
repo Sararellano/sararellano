@@ -96,7 +96,7 @@ class Skills extends Component {
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={90} label={"Creatividad"} className="bar10" />  
+                                <ProgressBar now={100} label={"Creatividad"} className="bar10" />  
                             </ScrollAnimation>
                         </Col>
                     </Row>

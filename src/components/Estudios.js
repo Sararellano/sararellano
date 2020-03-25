@@ -65,6 +65,14 @@ class Estudios extends Component {
                                     2019
                                 </div>
                             </div>
+                            
+                            <div className="col-sm-12 info-block wow fadeInRight">
+                                <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
+                                <div className="info-text">
+                                    <span><strong>Varios cursos sobre JS Vanilla</strong> - <em>Udemy</em></span>
+                                    2020
+                                </div>
+                            </div>
 
                         </Row>
                     </Col>
