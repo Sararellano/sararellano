@@ -58,7 +58,7 @@ class Skills extends Component {
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={90} label={"npm"} className="bar6" />
+                                <ProgressBar now={60} label={"JS Vanilla"} className="bar6" />
                             </ScrollAnimation>  
                         </Col>
                     </Row>
@@ -74,15 +74,6 @@ class Skills extends Component {
                                 <ProgressBar now={90} label={"Git"} className="bar8" />
                             </ScrollAnimation>  
                         </Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={60} label={"JS Vanilla"} className="bar9" />
-                            </ScrollAnimation>                            
-                        </Col>
-                        <Col md={2}></Col>
-                        
                     </Row>
                     <Row>
                         <Col> <h3>Soft-Skills</h3></Col>
