@@ -19,11 +19,11 @@ class Experiencia extends Component {
 
 
     render() {
-        return(
+        return (
             <div className="Experiencia" id="Experiencia">
                 <Titulo titleText="Experiencia" />
                 <Container>
-                    
+
                     <Row>
                         <Col>
                             <ScrollAnimation animateIn="slideInRight">
@@ -32,7 +32,7 @@ class Experiencia extends Component {
                                     <br />
                                     <span><em>Octubre 2019 - Actualidad</em></span>
                                     <br />
-                                    <span>Uso de un framework propio con el uso de PUG, SASS y JS Vanilla. También, para otros proyectos, uso de Drupal 8 - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a> </span>                                
+                                    <span>Uso de una librería propia con el uso de PUG, SASS y JS Vanilla. También, para otros proyectos, uso de Drupal 8 - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a> </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -45,7 +45,7 @@ class Experiencia extends Component {
                                     <br />
                                     <span><em>Junio 2019 - Actualidad</em></span>
                                     <br />
-                                    <span>Realización de varias páginas webs, como <a href="http://www.jsfisioterapia.com/" rel="noopener noreferrer" target="_blank">Js Fisioterapia</a> </span>                                
+                                    <span>Realización de varias páginas webs, como <a href="http://www.jsfisioterapia.com/" rel="noopener noreferrer" target="_blank">Js Fisioterapia</a> </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -58,7 +58,7 @@ class Experiencia extends Component {
                                     <br />
                                     <span><em>Febrero 2018 - Noviembre 2018</em></span>
                                     <br />
-                                    <span>Realización de páginas webs usando <strong>React.js</strong> y <strong>Vue.js</strong>, CSS con SASS y FlexBox, Git, Node.js, Sketch, Zeplin y DialogFlow para crear bots conversacionales. </span>                                
+                                    <span>Realización de páginas webs usando <strong>React.js</strong> y <strong>Vue.js</strong>, CSS con SASS y FlexBox, Git, Node.js, Sketch, Zeplin y DialogFlow para crear bots conversacionales. </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
