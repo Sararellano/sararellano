@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/sararellano/static/css/main.e5968738.chunk.css",
-    "main.js": "/sararellano/static/js/main.40de8c2c.chunk.js",
-    "main.js.map": "/sararellano/static/js/main.40de8c2c.chunk.js.map",
+    "main.css": "/sararellano/static/css/main.04cda5c4.chunk.css",
+    "main.js": "/sararellano/static/js/main.79d89478.chunk.js",
+    "main.js.map": "/sararellano/static/js/main.79d89478.chunk.js.map",
     "runtime~main.js": "/sararellano/static/js/runtime~main.e0f338f5.js",
     "runtime~main.js.map": "/sararellano/static/js/runtime~main.e0f338f5.js.map",
-    "static/js/2.41ecf84f.chunk.js": "/sararellano/static/js/2.41ecf84f.chunk.js",
-    "static/js/2.41ecf84f.chunk.js.map": "/sararellano/static/js/2.41ecf84f.chunk.js.map",
+    "static/js/2.2c41fb0d.chunk.js": "/sararellano/static/js/2.2c41fb0d.chunk.js",
+    "static/js/2.2c41fb0d.chunk.js.map": "/sararellano/static/js/2.2c41fb0d.chunk.js.map",
     "index.html": "/sararellano/index.html",
-    "precache-manifest.fb3d49c80cd64ee537e05e69e349f137.js": "/sararellano/precache-manifest.fb3d49c80cd64ee537e05e69e349f137.js",
+    "precache-manifest.8a79eec8633712b1e61a5137e11dec42.js": "/sararellano/precache-manifest.8a79eec8633712b1e61a5137e11dec42.js",
     "service-worker.js": "/sararellano/service-worker.js",
-    "static/css/main.e5968738.chunk.css.map": "/sararellano/static/css/main.e5968738.chunk.css.map",
+    "static/css/main.04cda5c4.chunk.css.map": "/sararellano/static/css/main.04cda5c4.chunk.css.map",
     "static/media/CV-SaraArellano.pdf": "/sararellano/static/media/CV-SaraArellano.554ee10f.pdf",
     "static/media/gear-audiovisuals.png": "/sararellano/static/media/gear-audiovisuals.81d71834.png",
     "static/media/Inicio.css": "/sararellano/static/media/inicio.75065b03.jpg",
     "static/media/jsfisio.jpg": "/sararellano/static/media/jsfisio.6a89454b.jpg",
+    "static/media/navalpie.png": "/sararellano/static/media/navalpie.4294b68e.png",
     "static/media/SobreMi.css": "/sararellano/static/media/sararellano.0c305621.jpg"
   }
 }

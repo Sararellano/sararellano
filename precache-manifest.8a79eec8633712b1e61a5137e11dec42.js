@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c19e74b7efe15f760b3a3d04743ec342",
+    "revision": "2f936e5a8071297c166c7d3b1217dbb9",
     "url": "/sararellano/index.html"
   },
   {
-    "revision": "1975ec73fe7659cd8aad",
-    "url": "/sararellano/static/css/main.e5968738.chunk.css"
+    "revision": "e3cebeaf6a942f219e02",
+    "url": "/sararellano/static/css/main.04cda5c4.chunk.css"
   },
   {
-    "revision": "17958ac19c513d15c238",
-    "url": "/sararellano/static/js/2.41ecf84f.chunk.js"
+    "revision": "9e4834c8ca2afe45a170",
+    "url": "/sararellano/static/js/2.2c41fb0d.chunk.js"
   },
   {
-    "revision": "1975ec73fe7659cd8aad",
-    "url": "/sararellano/static/js/main.40de8c2c.chunk.js"
+    "revision": "e3cebeaf6a942f219e02",
+    "url": "/sararellano/static/js/main.79d89478.chunk.js"
   },
   {
     "revision": "f2855cc37f861a04e26c",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a89454b0b7d182baf43405ff4c560dd",
     "url": "/sararellano/static/media/jsfisio.6a89454b.jpg"
+  },
+  {
+    "revision": "4294b68e4b94746874a9c898d6adc3c2",
+    "url": "/sararellano/static/media/navalpie.4294b68e.png"
   },
   {
     "revision": "0c3056219ea76fcef6fb323e264c0a4e",
