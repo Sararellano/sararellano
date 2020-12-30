@@ -4,21 +4,21 @@
   "private": true,
   "homepage": "http://sararellano.github.io/sararellano",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.22",
-    "@fortawesome/free-brands-svg-icons": "^5.10.2",
-    "@fortawesome/free-solid-svg-icons": "^5.10.2",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "animate.css": "^3.7.2",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.3",
     "core-util-is": "^1.0.2",
-    "jquery": "^3.4.1",
-    "react": "^16.9.0",
+    "jquery": "^3.5.1",
+    "react": "^16.14.0",
     "react-animate-on-scroll": "^2.1.5",
-    "react-bootstrap": "^1.0.0-beta.11",
-    "react-burger-menu": "^2.6.11",
-    "react-dom": "^16.9.0",
+    "react-bootstrap": "^1.4.0",
+    "react-burger-menu": "^2.9.2",
+    "react-dom": "^16.14.0",
     "react-scripts": "3.1.1",
-    "react-scrollspy-nav": "^1.2.1"
+    "react-scrollspy-nav": "^1.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,6 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
