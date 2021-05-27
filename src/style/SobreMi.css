@@ -1,13 +1,13 @@
 @media(max-width: 576px) {
     .info-text {
         padding-left: 10px!important;
-    } 
+    }
 }
 
-.SobreMi {
+.sobreMi {
     padding-top: 50px;
 }
-.SobreMi-content {
+.sobreMi-content {
     justify-content: center;
 }
 .profile-pic {

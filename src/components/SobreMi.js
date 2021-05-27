@@ -22,17 +22,17 @@ class SobreMi extends Component {
 
     render() {
         return(
-            <div className="SobreMi" id="SobreMi">
-                <Titulo titleText="Sobre Mi" />  
+            <div className="sobreMi" id="sobreMi">
+                <Titulo titleText="Sobre Mi" />
                 <Container>
-                    <Row className="SobreMi-content">
+                    <Row className="sobreMi-content">
                         <ScrollAnimation animateIn="slideInLeft">
                             <Col sm={12} md={3}>
                                 <div className="profile-pic"></div>
                             </Col>
                         </ScrollAnimation>
                         <Col sm={12} md={9}>
-                            <Row className="SobreMi-info">
+                            <Row className="sobreMi-info">
                                 <ScrollAnimation animateIn="slideInRight">
                                     <Col>
                                         <div className="info-block wow">
@@ -42,7 +42,7 @@ class SobreMi extends Component {
                                                 sararellano@gmail.com
                                             </div>
                                         </div>
-                                    
+
                                         <div className="info-block wow">
                                             <div className="info-icon hvr-trim"><FontAwesomeIcon icon={faPhone} /></div>
                                             <div className="info-text">
@@ -68,12 +68,12 @@ class SobreMi extends Component {
                                                 <span><strong>Ubicación</strong></span>
                                                 Madrid, España
                                             </div>
-                                        </div>                                        
+                                        </div>
                                     </Col>
                                 </ScrollAnimation>
                             </Row>
                             <Row className="description">
-                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong>, especializada y con experiencia en <strong>React.js</strong> y <strong>Vue.js</strong></p>
+                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong>.</p>
                                 <p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p>
                                 <p>Me gusta mucho poder ayudar a mis compañeros y, a la vez, aprender de ellos.</p>
                                 <br />
@@ -81,7 +81,7 @@ class SobreMi extends Component {
                             </Row>
                         </Col>
                     </Row>
-                </Container>             
+                </Container>
             </div>
         );
     }

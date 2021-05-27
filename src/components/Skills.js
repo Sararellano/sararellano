@@ -17,8 +17,8 @@ class Skills extends Component {
 
     render() {
         return(
-            <div className="Skills" id="Skills">
-                <Titulo titleText="Skills" />
+            <div className="skills" id="skills">
+                <Titulo titleText="skills" />
                 <Container>
                     <Row>
                         <Col> <h3>Conocimientos</h3></Col>
@@ -26,53 +26,53 @@ class Skills extends Component {
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={75} label={"React.js"} className="bar1" /> 
-                            </ScrollAnimation>                           
+                                <ProgressBar now={75} label={"NPM"} className="bar1" />
+                            </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={50} label={"Vue.js"} className="bar2" /> 
-                            </ScrollAnimation> 
+                                <ProgressBar now={100} label={"Responsive Design"} className="bar2" />
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={90} label={"Flexbox"} className="bar3" />
-                            </ScrollAnimation>                            
+                                <ProgressBar now={100} label={"Flexbox"} className="bar3" />
+                            </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={90} label={"SASS"} className="bar4" /> 
-                            </ScrollAnimation> 
+                                <ProgressBar now={90} label={"SASS"} className="bar4" />
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={70} label={"Node.js"} className="bar5" />  
-                            </ScrollAnimation>                          
+                                <ProgressBar now={70} label={"Node.js"} className="bar5" />
+                            </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
                                 <ProgressBar now={60} label={"JS Vanilla"} className="bar6" />
-                            </ScrollAnimation>  
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
                                 <ProgressBar now={70} label={"Drupal 8"} className="bar7" />
-                            </ScrollAnimation>                            
+                            </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={90} label={"Git"} className="bar8" />
-                            </ScrollAnimation>  
+                                <ProgressBar now={85} label={"Git"} className="bar8" />
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
@@ -81,39 +81,39 @@ class Skills extends Component {
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={100} label={"Trabajo en equipo"} className="bar9" /> 
-                            </ScrollAnimation>                           
+                                <ProgressBar now={100} label={"Trabajo en equipo"} className="bar9" />
+                            </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={100} label={"Creatividad"} className="bar10" />  
+                                <ProgressBar now={100} label={"Creatividad"} className="bar10" />
                             </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={100} label={"Atención al detalle"} className="bar11" />   
-                            </ScrollAnimation>                         
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={100} label={"Resolver problemas"} className="bar12" /> 
-                            </ScrollAnimation> 
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={100} label={"Comunicación"} className="bar13" />                            
+                                <ProgressBar now={100} label={"Atención al detalle"} className="bar11" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={100} label={"Aprender rápidamente"} className="bar14" /> 
+                                <ProgressBar now={100} label={"Resolver problemas"} className="bar12" />
+                            </ScrollAnimation>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm={12} md={5}>
+                            <ScrollAnimation animateIn="slideInLeft">
+                                <ProgressBar now={100} label={"Comunicación"} className="bar13" />
+                            </ScrollAnimation>
+                        </Col>
+                        <Col md={2}></Col>
+                        <Col sm={12} md={5}>
+                            <ScrollAnimation animateIn="slideInRight">
+                                <ProgressBar now={100} label={"Aprender rápidamente"} className="bar14" />
                             </ScrollAnimation>
                         </Col>
                     </Row>

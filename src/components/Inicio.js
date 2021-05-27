@@ -19,7 +19,7 @@ class Inicio extends Component {
 
     render() {
         return(
-            <div className="Inicio" id="Inicio">
+            <div className="inicio" id="inicio">
                 <Row>
                     <div className="main">
                         <section id="home" className="home">
@@ -45,7 +45,7 @@ class Inicio extends Component {
                             </div>
                         </section>
                     </div>
-                </Row>                
+                </Row>
             </div>
         );
     }

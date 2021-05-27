@@ -8,6 +8,8 @@ import Titulo from './Titulo';
 import '../style/Estudios.css';
 import '../style/index.css';
 
+import bootcamp from '../images/certificadoUdemy.jpeg'
+
 
 class Estudios extends Component {
     // constructor(){
@@ -21,11 +23,11 @@ class Estudios extends Component {
 
     render() {
         return(
-            <div className="Estudios" id="Estudios">
-                <Titulo titleText="Estudios" />
+            <div className="estudios" id="estudios">
+                <Titulo titleText="estudios" />
                 <Container>
                     <Col>
-                        <Row className="Estudios-description">
+                        <Row className="estudios-description">
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
@@ -33,7 +35,7 @@ class Estudios extends Component {
                                     2007 - 2013
                                 </div>
                             </div>
-                            
+
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
@@ -41,7 +43,7 @@ class Estudios extends Component {
                                     2017 - 2018
                                 </div>
                             </div>
-                           
+
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
@@ -49,7 +51,7 @@ class Estudios extends Component {
                                     2019
                                 </div>
                             </div>
-                           
+
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
@@ -57,7 +59,7 @@ class Estudios extends Component {
                                     2019
                                 </div>
                             </div>
-                            
+
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
@@ -65,12 +67,20 @@ class Estudios extends Component {
                                     2019
                                 </div>
                             </div>
-                            
+
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
                                     <span><strong>Varios cursos sobre JS Vanilla</strong> - <em>Udemy</em></span>
                                     2020
+                                </div>
+							</div>
+
+                            <div className="col-sm-12 info-block wow fadeInRight">
+                                <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
+                                <div className="info-text">
+                                    <span><a href={bootcamp} target="_blank" rel="noopener noreferrer"><strong>Web Development Bootcamp</strong></a> - <em>Udemy</em></span>
+                                    2021
                                 </div>
                             </div>
 

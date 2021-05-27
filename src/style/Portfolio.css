@@ -1,7 +1,7 @@
-.Portfolio {
+.portfolio {
     padding-top: 50px;
 }
-.Portfolio-col {
+.portfolio-col {
   margin: 40px 10px;
 }
 .ih-item {
@@ -18,6 +18,10 @@
 .ih-item img {
     width: 100%;
     height: 100%;
+		position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
 .ih-item.square {
     position: relative;
@@ -50,6 +54,9 @@
 }
 .ih-item.square.effect4 .img {
     transition: all 0.35s ease-in-out;
+		position: relative;
+		width: 100%;
+		height: 100%;
 }
 .ih-item.square.effect4 .mask1,
 .ih-item.square.effect4 .mask2 {
@@ -66,7 +73,7 @@
   top: 0;
   transform: rotate(56.5deg) translateX(-180px);
   transform-origin: 100% 0%;
-}  
+}
 .ih-item.square.effect4 .mask2 {
     top: auto;
     bottom: 0;

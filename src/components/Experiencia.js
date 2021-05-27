@@ -20,19 +20,19 @@ class Experiencia extends Component {
 
     render() {
         return (
-            <div className="Experiencia" id="Experiencia">
-                <Titulo titleText="Experiencia" />
+            <div className="experiencia" id="experiencia">
+                <Titulo titleText="experiencia" />
                 <Container>
 
                     <Row>
                         <Col>
                             <ScrollAnimation animateIn="slideInRight">
-                                <div className="Experiencia-card">
+                                <div className="experiencia-card">
                                     <strong>Programadora frontend junior</strong> - Selectra
                                     <br />
                                     <span><em>Octubre 2019 - Actualidad</em></span>
                                     <br />
-                                    <span>Uso de una librería propia con el uso de PUG, SASS y JS Vanilla. También, para otros proyectos, uso de Drupal 8 - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a> </span>
+                                    <span>Uso de un Design System propio con el uso de PUG, SASS y JS Vanilla. Otros: Twig, Drupal, Docker, Sketch, inVision, NPM - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a> </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -40,7 +40,7 @@ class Experiencia extends Component {
                     <Row>
                         <Col>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <div className="Experiencia-card">
+                                <div className="experiencia-card">
                                     <strong>Programadora frontend</strong> - Freelance
                                     <br />
                                     <span><em>Junio 2019 - Actualidad</em></span>
@@ -53,7 +53,7 @@ class Experiencia extends Component {
                     <Row>
                         <Col>
                             <ScrollAnimation animateIn='slideInRight'>
-                                <div className="Experiencia-card">
+                                <div className="experiencia-card">
                                     <strong>Programadora frontend junior</strong> - Waavi Studios. S.L
                                     <br />
                                     <span><em>Febrero 2018 - Noviembre 2018</em></span>

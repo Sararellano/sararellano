@@ -35,13 +35,13 @@ class Menu extends Component {
                             <div className="menu-button" />
                         </label>
                         <ul className="menu">
-                            <li><a href="#Inicio"><span>Inicio</span></a></li>
+                            <li><a href="#inicio"><span>Inicio</span></a></li>
                             <li><a href="#SobreMi"><span>Sobre mi</span></a></li>
-                            <li><a href="#Skills"><span>Skills</span></a></li>
-                            <li><a href="#Estudios"><span>Estudios</span></a></li>
-                            <li><a href="#Experiencia"><span>Experiencia</span></a></li>
-                            <li><a href="#Portfolio"><span>Portfolio</span></a></li>
-                            <li><a href="#Contacto"><span>Contacto</span></a></li>
+                            <li><a href="#skills"><span>Skills</span></a></li>
+                            <li><a href="#estudios"><span>Estudios</span></a></li>
+                            <li><a href="#experiencia"><span>Experiencia</span></a></li>
+                            <li><a href="#portfolio"><span>Portfolio</span></a></li>
+                            <li><a href="#contacto"><span>Contacto</span></a></li>
                         </ul>
                     </Col>
                 </Row>

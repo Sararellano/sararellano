@@ -1,7 +1,7 @@
-.Experiencia {
+.experiencia {
     padding-top: 50px;
 }
-.Experiencia-card {
+.experiencia-card {
 	max-width: 550px;
 	width: 100%;
     background-color: #f5f5f5;
@@ -10,7 +10,7 @@
 	margin: 25px auto;
 	padding: 10px;
 }
-.Experiencia-card:after, .Experiencia-card:before {
+.experiencia-card:after, .experiencia-card:before {
 	bottom: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -21,16 +21,16 @@
 	pointer-events: none;
 }
 
-.Experiencia-card:after {
+.experiencia-card:after {
 	border-bottom-color: #f5f5f5;
 	border-width: 15px;
 	margin-left: -15px;
 }
-.Experiencia-card:before {
+.experiencia-card:before {
 	border-bottom-color: #00897B;
 	border-width: 21px;
 	margin-left: -21px;
 }
-.Experiencia-card a, .Experiencia-card a:focus, .Experiencia-card a:active, .Experiencia-card a:visited {
+.experiencia-card a, .experiencia-card a:focus, .experiencia-card a:active, .experiencia-card a:visited {
 	color: #00897B;
 }

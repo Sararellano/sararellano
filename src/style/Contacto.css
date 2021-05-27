@@ -1,24 +1,27 @@
 @media (max-width: 576px) {
-    .Contacto .Contacto-content {
+    .contacto .contacto-content {
         justify-content: start!important;
     }
+	.contacto a {
+		font-size: 12px;
+	}
 }
 
-.Contacto {
+.contacto {
     padding-top: 50px;
     padding-bottom: 80px;
 }
-.Contacto .row {
+.contacto .row {
     justify-content: center;
     align-items: center;
 }
-.Contacto h5 {
+.contacto h5 {
     margin-bottom: 50px;
 }
-.Contacto a, .Contacto a:visited {
+.contacto a, .contacto a:visited {
     color: black;
     text-decoration: none;
 }
-.Contacto a:hover, .Contacto a:focus {
+.contacto a:hover, .contacto a:focus {
     color: #00897B;
 }

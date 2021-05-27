@@ -18,11 +18,11 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="Portfolio" id="Portfolio">
-                <Titulo titleText="Portfolio" />
+            <div className="portfolio" id="portfolio">
+                <Titulo titleText="portfolio" />
                 <Container>
                     <Row>
-                        <Col className="Portfolio-col">
+                        <Col className="portfolio-col">
                             <div className="ih-item square colored effect4">
                                 <a href="http://www.jsfisioterapia.com/" target="_blank" rel="noopener noreferrer">
                                     <div className="img"><img src={jsFisio} alt="Fisioterapia gimnasios Dreamfit" /></div>
@@ -36,7 +36,7 @@ class Portfolio extends Component {
                             </div>
                         </Col>
 
-                        <Col className="Portfolio-col">
+                        <Col className="portfolio-col">
                             <div className="ih-item square colored effect4">
                                 <a href="http://gear-audiovisuals.es" target="_blank" rel="noopener noreferrer">
                                     <div className="img"><img src={GEAR} alt="Empresa audiovisual" /></div>
@@ -50,7 +50,7 @@ class Portfolio extends Component {
                             </div>
                         </Col>
 
-                        <Col className="Portfolio-col">
+                        <Col className="portfolio-col">
                             <div className="ih-item square colored effect4">
                                 <a href="https://navalpie.com" target="_blank" rel="noopener noreferrer">
                                     <div className="img"><img src={navalpie} alt="clinica podologica Navalpie" /></div>

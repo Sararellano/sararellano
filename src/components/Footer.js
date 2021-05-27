@@ -12,7 +12,7 @@ class Footer extends Component {
 
     render() {
         return(
-            <div className="Footer">
+            <div className="footer">
                 <span>© Sara Arellano Blázquez - 2019</span>
             </div>
         );
