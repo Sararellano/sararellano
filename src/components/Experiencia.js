@@ -28,11 +28,11 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn="slideInRight">
                                 <div className="experiencia-card">
-                                    <strong>Programadora frontend junior</strong> - Selectra
+                                    <strong>Frontend y Drupal developer junior</strong> - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a>
                                     <br />
                                     <span><em>Octubre 2019 - Actualidad</em></span>
                                     <br />
-                                    <span>Uso de un Design System propio con el uso de PUG, SASS y JS Vanilla. Otros: Twig, Drupal, Docker, Sketch, inVision, NPM - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a> </span>
+                                    <span>Uso de un Design System propio con el uso de PUG, SASS y JS Vanilla. Otros: Drupal, Twig, PHP (basic), Docker (basic), NPM, Webpack, Sketch, inVision, Figma  </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -41,11 +41,11 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn="slideInLeft">
                                 <div className="experiencia-card">
-                                    <strong>Programadora frontend</strong> - Freelance
+                                    <strong>Developer</strong> - Freelance
                                     <br />
                                     <span><em>Junio 2019 - Actualidad</em></span>
                                     <br />
-                                    <span>Realización de varias páginas webs, como <a href="http://www.jsfisioterapia.com/" rel="noopener noreferrer" target="_blank">Js Fisioterapia</a> </span>
+                                    <span>Realización y diseño de varias páginas webs, como <a href="https://navalpie.com/" rel="noopener noreferrer" target="_blank">Navalpie</a> </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -54,7 +54,7 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn='slideInRight'>
                                 <div className="experiencia-card">
-                                    <strong>Programadora frontend junior</strong> - Waavi Studios. S.L
+                                    <strong>Frontend developer junior</strong> - Waavi Studios. S.L
                                     <br />
                                     <span><em>Febrero 2018 - Noviembre 2018</em></span>
                                     <br />

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone, faCalendar, faMapMarker } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faGlobe, faMapMarker } from '@fortawesome/free-solid-svg-icons'
 import Titulo from './Titulo'
 
 
@@ -39,7 +39,7 @@ class SobreMi extends Component {
                                             <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faEnvelope} /></div>
                                             <div className="info-text">
                                                 <span><strong>Email</strong></span>
-                                                sararellano@gmail.com
+                                                <a href="mailto:sararellano@gmail.com"> sararellano@gmail.com </a>
                                             </div>
                                         </div>
 
@@ -56,10 +56,10 @@ class SobreMi extends Component {
                                 <ScrollAnimation animateIn="slideInRight">
                                     <Col>
                                         <div className=" info-block wow ">
-                                            <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faCalendar} /></div>
+                                            <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faGlobe} /></div>
                                             <div className="info-text">
-                                                <span><strong>Nacimiento</strong></span>
-                                                28 Octubre 1990
+                                                <span><strong>Medium</strong></span>
+                                                <a href="https://sararellano.medium.com/"> https://sararellano.medium.com/ </a>
                                             </div>
                                         </div>
                                         <div className=" info-block wow ">
@@ -73,7 +73,7 @@ class SobreMi extends Component {
                                 </ScrollAnimation>
                             </Row>
                             <Row className="description">
-                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong>.</p>
+                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong> especializada en <strong> Drupal</strong>.</p>
                                 <p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p>
                                 <p>Me gusta mucho poder ayudar a mis compañeros y, a la vez, aprender de ellos.</p>
                                 <br />

@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../style/Inicio.css';
 import '../style/index.css';
 
-import downloadCV from '../images/CV-SaraArellano.pdf'
+import downloadCV from '../images/CV-SaraArellano-en.pdf'
 
 
 class Inicio extends Component {

@@ -39,7 +39,7 @@ class Estudios extends Component {
                             <div className="col-sm-12 info-block wow fadeInRight">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
                                 <div className="info-text">
-                                    <span><strong>Programación Front-end</strong> - <em>Netmind / Avalado por McKinsey (640h)</em></span>
+                                    <span><strong>Programación Front-end</strong> - Programa Superior <em>Netmind / Avalado por McKinsey (640h)</em></span>
                                     2017 - 2018
                                 </div>
                             </div>
