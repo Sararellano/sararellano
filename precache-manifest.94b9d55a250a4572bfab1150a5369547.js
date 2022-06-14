@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e267093519c41deba35bfecd081e0b97",
+    "revision": "fe0f28f6af4c4558b7f4b3da6f5ea773",
     "url": "/sararellano/index.html"
   },
   {
-    "revision": "cf92b8e3c4015a1f840f",
+    "revision": "16656a60885ab39442f8",
     "url": "/sararellano/static/css/main.9b444126.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sararellano/static/js/2.73682e4c.chunk.js"
   },
   {
-    "revision": "cf92b8e3c4015a1f840f",
-    "url": "/sararellano/static/js/main.6c317e61.chunk.js"
+    "revision": "16656a60885ab39442f8",
+    "url": "/sararellano/static/js/main.95b592be.chunk.js"
   },
   {
     "revision": "f2855cc37f861a04e26c",
     "url": "/sararellano/static/js/runtime~main.e0f338f5.js"
   },
   {
-    "revision": "e0918e1ad9f434bad5b1c79cb67f9e8d",
-    "url": "/sararellano/static/media/CV-SaraArellano-en.e0918e1a.pdf"
+    "revision": "60057a9be74e73cf5c256c138a6d436c",
+    "url": "/sararellano/static/media/CV-SaraArellano-en.60057a9b.pdf"
   },
   {
     "revision": "4a00d89f223a54310f3ccdf0adbbda92",
