@@ -31,8 +31,13 @@ class Experiencia extends Component {
                                     <strong>Frontend y Drupal developer junior</strong> - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a>
                                     <br />
                                     <span><em>Octubre 2019 - Actualidad</em></span>
-                                    <br />
-                                    <span>Uso de un Design System propio con el uso de PUG, SASS y JS Vanilla. Otros: Drupal, Twig, PHP (basic), Docker (basic), NPM, Webpack, Sketch, inVision, Figma  </span>
+									<br />
+									<span> Cuando entré en Selectra no sabía nada sobre Drupal y después de unos pocos días ya estaba creando componentes en Twig, JS Vanilla y SASS. También he contribuido en la creación de un Design System propio de Selectra donde usamos BEM, Atomic Design y todos los componentes son reutilizables.</span>
+									<br />
+									<span> He implementado medidas para mejorar el SEO y con mi equipo hemos conseguido que nuestras páginas no bajen del 90/100. </span>
+									<span>También soy responsable de 1 junior developer y estoy enseñando los principios de la programación a compañeros Service Engineers.</span>
+									<span>Además de la programación, participo en entrevistas para captar nuevos programadores y en la creación de ejercicios para comprobar el nivel de los mismos.</span>
+                                    <span><strong>Technical Stack:</strong> SASS, JS vanilla, Gulp, NPM, Node.js, Twig, Pug, Drupal, PHP (basic), Docker (basic), Webpack, Sketch, inVision, Figma  </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>
@@ -56,9 +61,22 @@ class Experiencia extends Component {
                                 <div className="experiencia-card">
                                     <strong>Frontend developer junior</strong> - Waavi Studios. S.L
                                     <br />
+                                    <span><em>Noviembre 2018 - Abril 2019</em></span>
+                                    <br />
+                                    <span>Quería saber más acerca del trabajo comercial y me dieron la oportunidad de comenzar como account manager. Me dediqué a la captación de nuevos clientes y del mantenimiento de los actuales. Al ser programadora, comprendía el lenguaje y las necesidades delos programadores y conseguí "traducir el lenguaje" del cliente en acciones reales para los programadores.</span>
+                                </div>
+                            </ScrollAnimation>
+                        </Col>
+					</Row>
+					<Row>
+                        <Col>
+                            <ScrollAnimation animateIn='slideInLeft'>
+                                <div className="experiencia-card">
+                                    <strong>Frontend developer junior</strong> - Waavi Studios. S.L
+                                    <br />
                                     <span><em>Febrero 2018 - Noviembre 2018</em></span>
                                     <br />
-                                    <span>Realización de páginas webs usando <strong>React.js</strong> y <strong>Vue.js</strong>, CSS con SASS y FlexBox, Git, Node.js, Sketch, Zeplin y DialogFlow para crear bots conversacionales. </span>
+                                    <span>Realización de páginas webs usando <strong>React.js</strong> y <strong>Vue.js</strong>, CSS con SASS y FlexBox, Yarn, Git, Node.js, Sketch, Zeplin y DialogFlow para crear bots conversacionales. </span>
                                 </div>
                             </ScrollAnimation>
                         </Col>

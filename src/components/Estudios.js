@@ -82,6 +82,14 @@ class Estudios extends Component {
                                     <span><a href={bootcamp} target="_blank" rel="noopener noreferrer"><strong>Web Development Bootcamp</strong></a> - <em>Udemy</em></span>
                                     2021
                                 </div>
+							</div>
+
+                            <div className="col-sm-12 info-block wow fadeInLeft">
+                                <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faAngleDoubleRight} /></div>
+                                <div className="info-text">
+                                    <span><strong>Github Actions - Continuos Integration (CI)</strong> - <em>Youtube</em></span>
+                                    2022
+                                </div>
                             </div>
 
                         </Row>

@@ -73,8 +73,9 @@ class SobreMi extends Component {
                                 </ScrollAnimation>
                             </Row>
                             <Row className="description">
-                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong> especializada en <strong> Drupal</strong>.</p>
-                                <p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p>
+                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong> especializada en <strong> JavaScript Vanilla, CSS con SASS  </strong>como preprocesador y <strong>Drupal</strong>.</p>
+								<p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p>
+								<p>Siempre haciendo que mi trabajo sea escalable y genérico para que pueda ser reutilizado. También, por supuesto, pensando siempre en mobile first, en diseños responsive y en mejorar la UX.</p>
                                 <p>Me gusta mucho poder ayudar a mis compañeros y, a la vez, aprender de ellos.</p>
                                 <br />
                                 <p>A parte de la programación, mis otros hobbies son los animales y mi clarinete.</p>

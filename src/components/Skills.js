@@ -24,9 +24,9 @@ class Skills extends Component {
                         <Col> <h3>Conocimientos</h3></Col>
                     </Row>
                     <Row>
-                        <Col sm={12} md={5}>
+					<Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={75} label={"NPM"} className="bar1" />
+                                <ProgressBar now={100} label={"HTML/CSS"} className="bar1" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
@@ -39,13 +39,13 @@ class Skills extends Component {
                     <Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={100} label={"Flexbox"} className="bar3" />
+                                <ProgressBar now={75} label={"NPM"} className="bar3" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={90} label={"SASS"} className="bar4" />
+                                <ProgressBar now={90} label={"SASS preprocessor"} className="bar4" />
                             </ScrollAnimation>
                         </Col>
                     </Row>
@@ -61,17 +61,30 @@ class Skills extends Component {
                                 <ProgressBar now={60} label={"JS Vanilla"} className="bar6" />
                             </ScrollAnimation>
                         </Col>
-                    </Row>
-                    <Row>
+					</Row>
+					<Row>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={70} label={"Drupal 8"} className="bar7" />
+                                <ProgressBar now={75} label={"Gulp"} className="bar7" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
                             <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={85} label={"Git"} className="bar8" />
+                                <ProgressBar now={30} label={"PHP"} className="bar8" />
+                            </ScrollAnimation>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm={12} md={5}>
+                            <ScrollAnimation animateIn="slideInLeft">
+                                <ProgressBar now={70} label={"Drupal"} className="bar9" />
+                            </ScrollAnimation>
+                        </Col>
+                        <Col md={2}></Col>
+                        <Col sm={12} md={5}>
+                            <ScrollAnimation animateIn="slideInRight">
+                                <ProgressBar now={85} label={"Git"} className="bar10" />
                             </ScrollAnimation>
                         </Col>
                     </Row>

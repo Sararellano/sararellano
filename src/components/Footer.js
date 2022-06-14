@@ -13,7 +13,7 @@ class Footer extends Component {
     render() {
         return(
             <div className="footer">
-                <span>© Sara Arellano Blázquez - 2021</span>
+                <span>© Sara Arellano Blázquez - {new Date().getFullYear()}</span>
             </div>
         );
     }
