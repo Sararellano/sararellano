@@ -28,7 +28,7 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn="slideInRight">
                                 <div className="experiencia-card">
-                                    <strong>Frontend y Drupal developer junior</strong> - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a>
+                                    <strong>Frontend y Drupal Developer Junior</strong> - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a>
                                     <br />
                                     <span><em>Octubre 2019 - Actualidad</em></span>
 									<br />
@@ -46,7 +46,7 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn="slideInLeft">
                                 <div className="experiencia-card">
-                                    <strong>Developer</strong> - Freelance
+                                    <strong>Web Developer</strong> - Freelance
                                     <br />
                                     <span><em>Junio 2019 - Actualidad</em></span>
                                     <br />
@@ -59,7 +59,7 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn='slideInRight'>
                                 <div className="experiencia-card">
-                                    <strong>Frontend developer junior</strong> - Waavi Studios. S.L
+                                    <strong>Accout Manager</strong> - Waavi Studios. S.L
                                     <br />
                                     <span><em>Noviembre 2018 - Abril 2019</em></span>
                                     <br />
@@ -72,7 +72,7 @@ class Experiencia extends Component {
                         <Col>
                             <ScrollAnimation animateIn='slideInLeft'>
                                 <div className="experiencia-card">
-                                    <strong>Frontend developer junior</strong> - Waavi Studios. S.L
+                                    <strong>Frontend Developer Junior</strong> - Waavi Studios. S.L
                                     <br />
                                     <span><em>Febrero 2018 - Noviembre 2018</em></span>
                                     <br />
