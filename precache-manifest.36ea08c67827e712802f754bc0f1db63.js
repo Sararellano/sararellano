@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe0f28f6af4c4558b7f4b3da6f5ea773",
+    "revision": "85aad8200c0fb9fd9a836fe085553b3c",
     "url": "/sararellano/index.html"
   },
   {
-    "revision": "16656a60885ab39442f8",
+    "revision": "abdab15cb9b6ca6122f3",
     "url": "/sararellano/static/css/main.9b444126.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sararellano/static/js/2.73682e4c.chunk.js"
   },
   {
-    "revision": "16656a60885ab39442f8",
-    "url": "/sararellano/static/js/main.95b592be.chunk.js"
+    "revision": "abdab15cb9b6ca6122f3",
+    "url": "/sararellano/static/js/main.5658200b.chunk.js"
   },
   {
     "revision": "f2855cc37f861a04e26c",
