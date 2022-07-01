@@ -13,10 +13,6 @@ class Inicio extends Component {
 
     // }
 
-
-
-
-
     render() {
         return(
             <div className="inicio" id="inicio">

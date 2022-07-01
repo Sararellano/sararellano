@@ -21,3 +21,6 @@
 .bar8 .progress-bar, .bar10 .progress-bar, .bar12 .progress-bar, .bar14 .progress-bar {
     background-color: #62b7ae;
 }
+.to-sibling {
+	display: none;
+}

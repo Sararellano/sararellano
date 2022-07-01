@@ -24,7 +24,7 @@ class Titulo extends Component {
                    <Col>
                     <ScrollAnimation animateIn="fadeIn">
                             <div className="title">
-                                <h4> {this.props.titleText} </h4>
+                                <h4 data-section="about-me" data-value="title"> Sobre mi </h4>
                             </div>
                         </ScrollAnimation>
                    </Col>

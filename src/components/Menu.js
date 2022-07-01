@@ -12,11 +12,13 @@ import Contacto from './Contacto'
 import '../style/Menu.css';
 import '../style/index.css';
 
+import flagES from '../images/es.svg'
+import flagEN from '../images/gb.svg'
+
 
 class Menu extends Component {
     // constructor(){
     //     super();
-
     // }
 
 
@@ -35,13 +37,21 @@ class Menu extends Component {
                             <div className="menu-button" />
                         </label>
                         <ul className="menu">
-                            <li><a href="#inicio"><span>Inicio</span></a></li>
-                            <li><a href="#SobreMi"><span>Sobre mi</span></a></li>
-                            <li><a href="#skills"><span>Skills</span></a></li>
-                            <li><a href="#estudios"><span>Estudios</span></a></li>
-                            <li><a href="#experiencia"><span>Experiencia</span></a></li>
-                            <li><a href="#portfolio"><span>Portfolio</span></a></li>
-                            <li><a href="#contacto"><span>Contacto</span></a></li>
+                            <li><a href="#inicio" data-section="menu" data-value="inicio">Inicio</a></li>
+                            <li><a href="#SobreMi" data-section="menu" data-value="sobre-mi">Sobre mi</a></li>
+                            <li><a href="#skills" data-section="menu" data-value="skills">Skills</a></li>
+                            <li><a href="#estudios" data-section="menu" data-value="estudios">Estudios</a></li>
+                            <li><a href="#experiencia" data-section="menu" data-value="experiencia">Experiencia</a></li>
+                            <li><a href="#portfolio" data-section="menu" data-value="portfolio">Portfolio</a></li>
+							<li><a href="#contacto" data-section="menu" data-value="contacto">Contacto</a></li>
+							<li className="menu__flags" id="flags">
+								<div className="menu__flags--wrapper js-active" data-language="es">
+									<img src={flagES} alt="Spain flag" />
+								</div>
+								<div className="menu__flags--wrapper" data-language="en">
+									<img src={flagEN} alt="United Kingdom flag" />
+								</div>
+							</li>
                         </ul>
                     </Col>
                 </Row>

@@ -4,11 +4,11 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 // import { faGlobe} from '@fortawesome/free-solid-svg-icons'
-import Titulo from './Titulo';
+// import Titulo from './Titulo';
 
 import '../style/Contacto.css';
 import '../style/index.css';
-
+import '../style/Titulo.css';
 
 class Contacto extends Component {
     // constructor(){
@@ -19,11 +19,22 @@ class Contacto extends Component {
     render() {
         return(
             <div className="contacto" id="contacto">
-                <Titulo titleText="contacto" />
+				{/* <Titulo titleText="contacto" /> */}
+				<Container>
+					<Row>
+						<Col>
+							<ScrollAnimation animateIn="fadeIn">
+								<div className="title">
+									<h4 data-section="contact" data-value="title"> Contact </h4>
+								</div>
+							</ScrollAnimation>
+						</Col>
+					</Row>
+				</Container>
                 <Container>
                     <Row>
                         <Col>
-                            <h5>No dudes en contactar conmigo para cualquier duda o  cuestión</h5>
+                            <h5 data-section="contact" data-value="description">No dudes en contactar conmigo para cualquier duda o  cuestión</h5>
                         </Col>
                     </Row>
                     <Row className="contacto-content">
@@ -31,7 +42,7 @@ class Contacto extends Component {
                             <Col className="info-block wow">
                                 <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faPhone} /></div>
                                 <div className="info-text">
-                                    <span><strong>Móvil</strong></span>
+                                    <span><strong data-section="contact" data-value="phone">Móvil</strong></span>
                                     <a href="tel: +34663176344">+34 663176344</a>
                                 </div>
                             </Col>

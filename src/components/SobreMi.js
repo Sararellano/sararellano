@@ -3,12 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faGlobe, faMapMarker } from '@fortawesome/free-solid-svg-icons'
-import Titulo from './Titulo'
+// import Titulo from './Titulo'
 
 
 import '../style/SobreMi.css';
 import '../style/index.css';
-
+import '../style/Titulo.css';
 
 class SobreMi extends Component {
     // constructor(){
@@ -16,14 +16,20 @@ class SobreMi extends Component {
 
     // }
 
-
-
-
-
     render() {
         return(
             <div className="sobreMi" id="sobreMi">
-                <Titulo titleText="Sobre Mi" />
+                <Container>
+					<Row>
+						<Col>
+							<ScrollAnimation animateIn="fadeIn">
+								<div className="title">
+									<h4 data-section="about-me" data-value="title"> Sobre mi </h4>
+								</div>
+							</ScrollAnimation>
+						</Col>
+					</Row>
+				</Container>
                 <Container>
                     <Row className="sobreMi-content">
                         <ScrollAnimation animateIn="slideInLeft">
@@ -46,7 +52,7 @@ class SobreMi extends Component {
                                         <div className="info-block wow">
                                             <div className="info-icon hvr-trim"><FontAwesomeIcon icon={faPhone} /></div>
                                             <div className="info-text">
-                                                <span><strong>Teléfono</strong></span>
+                                                <span><strong data-section="about-me" data-value="phone">Teléfono</strong></span>
                                                 +34 663176344
                                             </div>
                                         </div>
@@ -65,14 +71,14 @@ class SobreMi extends Component {
                                         <div className=" info-block wow ">
                                             <div className="info-icon hvr-trim"><FontAwesomeIcon icon={faMapMarker} /> </div>
                                             <div className="info-text">
-                                                <span><strong>Ubicación</strong></span>
-                                                Madrid, España
+                                                <span><strong data-section="about-me" data-value="ubication">Ubicación</strong></span>
+                                                <span data-section="about-me" data-value="city">Madrid, España</span>
                                             </div>
                                         </div>
                                     </Col>
                                 </ScrollAnimation>
                             </Row>
-                            <Row className="description">
+                            <Row className="description" data-section="about-me" data-value="description">
                                 <p>Soy Sara Arellano, programadora <strong>Front-end</strong> especializada en <strong> JavaScript Vanilla, CSS con SASS  </strong>como preprocesador y <strong>Drupal</strong>.</p>
 								<p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p>
 								<p>Siempre haciendo que mi trabajo sea escalable y genérico para que pueda ser reutilizado. También, por supuesto, pensando siempre en mobile first, en diseños responsive y en mejorar la UX.</p>

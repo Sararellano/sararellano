@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Titulo from './Titulo';
-import jsFisio from '../images/jsfisio.jpg'
-import GEAR from '../images/gear-audiovisuals.png'
-import navalpie from '../images/navalpie.png'
+// import Titulo from './Titulo';
+import jsFisio from '../images/jsfisio.jpg';
+import GEAR from '../images/gear-audiovisuals.png';
+import navalpie from '../images/navalpie.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import '../style/Portfolio.css';
 import '../style/index.css';
-
+import '../style/Titulo.css';
 
 class Portfolio extends Component {
     // constructor(){
@@ -19,7 +20,18 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio" id="portfolio">
-                <Titulo titleText="portfolio" />
+				{/* <Titulo titleText="portfolio" /> */}
+				<Container>
+					<Row>
+						<Col>
+							<ScrollAnimation animateIn="fadeIn">
+								<div className="title">
+									<h4 data-section="portfolio" data-value="title"> Portfolio </h4>
+								</div>
+							</ScrollAnimation>
+						</Col>
+					</Row>
+				</Container>
                 <Container>
                     <Row>
                         <Col className="portfolio-col">
@@ -30,7 +42,7 @@ class Portfolio extends Component {
                                     <div className="mask2"></div>
                                     <div className="info">
                                         <h3>JS Fisioterapia</h3>
-                                        <p>Fisioterapia en los gimnasios DreamFit</p>
+                                        <p data-section="portfolio" data-value="js">Fisioterapia en los gimnasios DreamFit</p>
                                     </div>
                                 </a>
                             </div>
@@ -44,7 +56,7 @@ class Portfolio extends Component {
                                     <div className="mask2"></div>
                                     <div className="info">
                                         <h3>Gear Audiovisuals</h3>
-                                        <p>Fotografía - Empresa Gear Audiovisuals</p>
+                                        <p data-section="portfolio" data-value="gear">Fotografía - Empresa Gear Audiovisuals</p>
                                     </div>
                                 </a>
                             </div>
@@ -58,7 +70,7 @@ class Portfolio extends Component {
                                     <div className="mask2"></div>
                                     <div className="info">
                                         <h3>Navalpie</h3>
-                                        <p>Navalpie - Clínica podología Navalcarnero</p>
+                                        <p data-section="portfolio" data-value="navalpie">Navalpie - Clínica podología Navalcarnero</p>
                                     </div>
                                 </a>
                             </div>

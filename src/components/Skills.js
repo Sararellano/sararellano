@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import Titulo from './Titulo';
+// import Titulo from './Titulo';
 
 import '../style/Skills.css';
 import '../style/index.css';
-
+import '../style/Titulo.css';
 
 class Skills extends Component {
     // constructor(){
@@ -15,13 +15,24 @@ class Skills extends Component {
     // }
 
 
-    render() {
+	render() {
         return(
             <div className="skills" id="skills">
-                <Titulo titleText="skills" />
+				{/* <Titulo titleText="skills" /> */}
+				<Container>
+					<Row>
+						<Col>
+							<ScrollAnimation animateIn="fadeIn">
+								<div className="title">
+									<h4 data-section="skills" data-value="title"> Skills </h4>
+								</div>
+							</ScrollAnimation>
+						</Col>
+					</Row>
+				</Container>
                 <Container>
                     <Row>
-                        <Col> <h3>Conocimientos</h3></Col>
+                        <Col> <h3 data-section="skills" data-value="skills">Conocimientos</h3></Col>
                     </Row>
                     <Row>
 					<Col sm={12} md={5}>
@@ -93,39 +104,45 @@ class Skills extends Component {
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={100} label={"Trabajo en equipo"} className="bar9" />
+							<ScrollAnimation animateIn="slideInLeft">
+								<span className="to-sibling" data-section="skills" data-value="trabajo-equipo"></span>
+								<ProgressBar now={100} label={"Trabajo en equipo"} className="bar9" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
+							<ScrollAnimation animateIn="slideInRight">
+								<span className="to-sibling" data-section="skills" data-value="creatividad"></span>
                                 <ProgressBar now={100} label={"Creatividad"} className="bar10" />
                             </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
+							<ScrollAnimation animateIn="slideInLeft">
+								<span className="to-sibling" data-section="skills" data-value="atencion-detalle"></span>
                                 <ProgressBar now={100} label={"Atención al detalle"} className="bar11" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
+							<ScrollAnimation animateIn="slideInRight">
+								<span className="to-sibling" data-section="skills" data-value="resolver-problemas"></span>
                                 <ProgressBar now={100} label={"Resolver problemas"} className="bar12" />
                             </ScrollAnimation>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
+							<ScrollAnimation animateIn="slideInLeft">
+								<span className="to-sibling" data-section="skills" data-value="comunicacion"></span>
                                 <ProgressBar now={100} label={"Comunicación"} className="bar13" />
                             </ScrollAnimation>
                         </Col>
                         <Col md={2}></Col>
                         <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
+							<ScrollAnimation animateIn="slideInRight">
+								<span className="to-sibling" data-section="skills" data-value="aprender-rapidamente"></span>
                                 <ProgressBar now={100} label={"Aprender rápidamente"} className="bar14" />
                             </ScrollAnimation>
                         </Col>
