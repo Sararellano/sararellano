@@ -1,0 +1,63 @@
+{
+	"menu": {
+		"inicio": "Inicio",
+		"sobre-mi": "Sobre mi",
+		"skills": "Skills",
+		"estudios": "Estudios",
+		"experiencia": "Experiencia",
+		"portfolio": "Portfolio",
+		"contacto": "Contacto"
+	},
+	"about-me": {
+		"title": "Sobre mi",
+		"phone": "Teléfono",
+		"ubication": "Ubicación",
+		"city": "Madrid, España",
+		"description": "<p>Soy Sara Arellano, programadora <strong>Front-end</strong> especializada en <strong> JavaScript Vanilla, CSS con SASS  </strong>como preprocesador y <strong>Drupal</strong>.</p><p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p><p>Siempre haciendo que mi trabajo sea escalable y genérico para que pueda ser reutilizado. También, por supuesto, pensando siempre en mobile first, en diseños responsive y en mejorar la UX.</p><p>Me gusta mucho poder ayudar a mis compañeros y, a la vez, aprender de ellos.</p><br /><p>A parte de la programación, mis otros hobbies son los animales y mi clarinete.</p>"
+	},
+	"skills": {
+		"title": "Skills",
+		"skills": "Conocimientos",
+		"trabajo-equipo": "Trabajo en equipo",
+		"creatividad": "Creatividad",
+		"atencion-detalle": "Atención al detalle",
+		"resolver-problemas": "Resolver problemas",
+		"comunicacion": "Comunicación",
+		"aprender-rapidamente": "Aprender rápidamente"
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"js": "Fisioterapia en los gimnasios DreamFit",
+		"gear": "Fotografía - Empresa Gear Audiovisuals",
+		"navalpie": "Navalpie - Clínica podología Navalcarnero"
+	},
+	"studies": {
+		"title": "Estudios",
+		"degree": "<strong>Licenciatura Publicidad y RRPP</strong> - <em>Universidad Rey Juan Carlos I, Madrid</em>",
+		"mckinsey": "<strong>Programación Front-end</strong> - Programa Superior <em>Netmind / Avalado por McKinsey (640h)</em>",
+		"react": "<strong>Curso React.js</strong> - <em>Online</em>",
+		"vue": "<strong>Curso Vue.js</strong> - <em>Online</em>",
+		"js-adv": "<strong>Curso JavaScript Avanzado</strong> - <em>Telefónica Universitas</em>",
+		"js-vanilla": "<strong>Varios cursos sobre JS Vanilla</strong> - <em>Udemy</em>",
+		"bootcamp": "<strong>Web Development Bootcamp</strong> - <em>Udemy</em>",
+		"ci": "<strong>Github Actions - Continuos Integration (CI)</strong> - <em>Youtube</em>"
+	},
+	"experience": {
+		"title": "Experiencia",
+		"exp1title": "Frontend y Drupal Developer Junior",
+		"exp1date": "<em>Octubre 2019 - Actualidad</em>",
+		"exp1descrp1": "Cuando entré en Selectra no sabía nada sobre Drupal y después de unos pocos días ya estaba creando componentes en Twig, JS Vanilla y SASS. También he contribuido en la creación de un Design System propio de Selectra donde usamos BEM, Atomic Design y todos los componentes son reutilizables.",
+		"exp1descrp2": "He implementado medidas para mejorar el SEO y con mi equipo hemos conseguido que nuestras páginas no bajen del 90/100. También soy responsable de 1 junior developer y estoy enseñando los principios de la programación a compañeros Service Engineers. Además de la programación, participo en entrevistas para captar nuevos programadores y en la creación de ejercicios para comprobar el nivel de los mismos. <strong>Technical Stack:</strong> SASS, JS Vanilla, Gulp, NPM, Node.js, Twig, Pug, Drupal, PHP (basic), Docker (basic), Webpack, Sketch, inVision, Figma",
+		"exp2date": "Junio 2019 - Actualidad",
+		"exp2descrp": "Realización y diseño de varias páginas webs, como <a href=\"https://navalpie.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Navalpie</a>",
+		"exp3date": "Noviembre 2018 - Abril 2019",
+		"exp3descrp": "Quería saber más acerca del trabajo comercial y me dieron la oportunidad de comenzar como account manager. Me dediqué a la captación de nuevos clientes y del mantenimiento de los actuales. Al ser programadora, comprendía el lenguaje y las necesidades delos programadores y conseguí \"traducir el lenguaje\" del cliente en acciones reales para los programadores.",
+		"exp4date": "Febrero 2018 - Noviembre 2018",
+		"exp4descrp": "Realización de páginas webs usando <strong>React.js</strong> y <strong>Vue.js</strong>, CSS con SASS y FlexBox, Yarn, Git, Node.js, Sketch, Zeplin y DialogFlow para crear bots conversacionales."
+	},
+	"contact": {
+		"title": "Contacto",
+		"description": "No dudes en contactar conmigo para cualquier duda o  cuestión",
+		"phone": "Móvil"
+	}
+}

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85aad8200c0fb9fd9a836fe085553b3c",
+    "revision": "1b109ed52c6d9aca5e6400ce5afb745a",
     "url": "/sararellano/index.html"
   },
   {
-    "revision": "abdab15cb9b6ca6122f3",
-    "url": "/sararellano/static/css/main.9b444126.chunk.css"
+    "revision": "7456c48378e225079b46",
+    "url": "/sararellano/static/css/main.a998d389.chunk.css"
   },
   {
-    "revision": "9ebf1ae9fb277739b881",
-    "url": "/sararellano/static/js/2.73682e4c.chunk.js"
+    "revision": "4e88dabd8f963d3c97ac",
+    "url": "/sararellano/static/js/2.d1df6579.chunk.js"
   },
   {
-    "revision": "abdab15cb9b6ca6122f3",
-    "url": "/sararellano/static/js/main.5658200b.chunk.js"
+    "revision": "7456c48378e225079b46",
+    "url": "/sararellano/static/js/main.493850f8.chunk.js"
   },
   {
     "revision": "f2855cc37f861a04e26c",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4a00d89f223a54310f3ccdf0adbbda92",
     "url": "/sararellano/static/media/certificadoUdemy.4a00d89f.jpeg"
+  },
+  {
+    "revision": "91221aeba452aeb57c55826c70920835",
+    "url": "/sararellano/static/media/es.91221aeb.svg"
+  },
+  {
+    "revision": "fcfef6780b36bef537381474df9d0be9",
+    "url": "/sararellano/static/media/gb.fcfef678.svg"
   },
   {
     "revision": "81d7183414ebffc67ed84e1bd0ee876e",

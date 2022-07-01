@@ -1,0 +1,63 @@
+{
+	"menu": {
+		"inicio": "Intro",
+		"sobre-mi": "About me",
+		"skills": "Skills",
+		"estudios": "Studies",
+		"experiencia": "Experience",
+		"portfolio": "Portfolio",
+		"contacto": "Contact"
+	},
+	"about-me": {
+		"title": "About me",
+		"phone": "Phone",
+		"ubication": "Ubication",
+		"city": "Madrid, Spain",
+		"description": "<p>I'm Sara Arellano, a <strong>Front-end</strong> programmer specialized in <strong>Vanilla JavaScript, CSS with SASS </strong>as a preprocessor and <strong>Drupal</strong>.</p> <p>I am passionate about learning new features and keep challenging myself.</p><p>Always making my work scalable and generic so it can be reused. Also, of course, always thinking about mobile first, responsive designs and improving the UX.</p><p>I really like being able to help my colleagues and, at the same time, learn from them.</p><br/><p>Besides programming, my other hobbies are animals and my clarinet.</p>"
+	},
+	"skills": {
+		"title": "Skills",
+		"skills": "Knowledge",
+		"trabajo-equipo": "Teamwork",
+		"creatividad": "Creativity",
+		"atencion-detalle": "Attention to detail",
+		"resolver-problemas": "Solve problems",
+		"comunicacion": "Comunication",
+		"aprender-rapidamente": "Learn quickly"
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"js": "Physiotherapy in dreamfit gyms",
+		"gear": "Photography - Company Gear Audiovisuals",
+		"navalpie": "Navalpie - Navalcarnero Podiatry Clinic"
+	},
+	"studies": {
+		"title": "Studies",
+		"degree": "<strong>Advertising and PR degree</strong> - <em>College Rey Juan Carlos I, Madrid</em>",
+		"mckinsey": "<strong>Front-end Development</strong> - Higher education <em>Netmind / Endorsed by McKinsey (640h)</em>",
+		"react": "<strong>React.js Course</strong> - <em>Online</em>",
+		"vue": "<strong>Vue.js Course</strong> - <em>Online</em>",
+		"js-adv": "<strong>Advance JavaScript Course</strong> - <em>Telefónica Universitas</em>",
+		"js-vanilla": "<strong>Some courses about JS Vanilla</strong> - <em>Udemy</em>",
+		"bootcamp": "<strong>Web Development Bootcamp</strong> - <em>Udemy</em>",
+		"ci": "<strong>Github Actions - Continuos Integration (CI)</strong> - <em>Youtube</em>"
+	},
+	"experience": {
+		"title": "Experience",
+		"exp1title": "Frontend and Drupal Developer Junior",
+		"exp1date": "<em>October 2019 - Currently</em>",
+		"exp1descrp1": "When I joined Selectra I knew nothing about Drupal and after a few days I was already creating components in Twig, JS Vanilla and SASS. I have also contributed to the creation of Selectra's own Design System where we use BEM, Atomic Design and all components are reusable.",
+		"exp1descrp2": "I have implemented measures to improve SEO and with my team we have managed to keep our pages from falling below 90/100. I am also responsible for 1 junior developer and am teaching the principles of programming to fellow Service Engineers. In addition to programming, I participate in interviews to attract new programmers and in the creation of exercises to check their level. <strong>Technical Stack:</strong> SASS, Vanilla JS, Gulp, NPM, Node.js, Twig, Pug, Drupal, PHP (basic), Docker (basic), Webpack, Sketch, inVision, Figma",
+		"exp2date": "June 2019 - Currently",
+		"exp2descrp": "Realization and design of several web pages, such as <a href=\"https://navalpie.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Navalpie</a>",
+		"exp3date": "November 2018 - April 2019",
+		"exp3descrp": "I wanted to know more about commercial work and was given the opportunity to start as an account manager. I dedicated myself to attracting new clients and maintaining current ones. Being a programmer, I understood the language and needs of the programmers and was able to \"translate the language\" of the client into real actions for the programmers.",
+		"exp4date": "February 2018 - November 2018",
+		"exp4descrp": "Creation of web pages using <strong>React.js</strong> and <strong>Vue.js</strong>, CSS with SASS and FlexBox, Yarn, Git, Node.js, Sketch, Zeplin and DialogFlow to create conversational bots."
+	},
+	"contact": {
+		"title": "Contact",
+		"description": "Do not hesitate to contact me for any questions or concerns",
+		"phone": "Phone"
+	}
+}
