@@ -25,7 +25,7 @@ Besides programming, my other hobbies are animals and my clarinet.
 <br />
 <div align="center">
   <a href="https://sararellano.github.io/sararellano">
-    <img src="https://activity-graph.herokuapp.com/graph?username=sararellano&theme=github" />
+    <img src="https://activity-graph.herokuapp.com/graph?username=sararellano&bg_color=06102a&color=fefefe&line=49acf7&point=6bd99c&area=true&hide_border=true" />
   </a>
  </div>
 
