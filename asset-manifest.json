@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/sararellano/static/css/main.a998d389.chunk.css",
-    "main.js": "/sararellano/static/js/main.493850f8.chunk.js",
-    "main.js.map": "/sararellano/static/js/main.493850f8.chunk.js.map",
+    "main.css": "/sararellano/static/css/main.04b22fcd.chunk.css",
+    "main.js": "/sararellano/static/js/main.66e603fb.chunk.js",
+    "main.js.map": "/sararellano/static/js/main.66e603fb.chunk.js.map",
     "runtime~main.js": "/sararellano/static/js/runtime~main.e0f338f5.js",
     "runtime~main.js.map": "/sararellano/static/js/runtime~main.e0f338f5.js.map",
-    "static/js/2.d1df6579.chunk.js": "/sararellano/static/js/2.d1df6579.chunk.js",
-    "static/js/2.d1df6579.chunk.js.map": "/sararellano/static/js/2.d1df6579.chunk.js.map",
+    "static/js/2.5790eb7f.chunk.js": "/sararellano/static/js/2.5790eb7f.chunk.js",
+    "static/js/2.5790eb7f.chunk.js.map": "/sararellano/static/js/2.5790eb7f.chunk.js.map",
     "index.html": "/sararellano/index.html",
-    "precache-manifest.889492927ec68894862be9e8ccd658d9.js": "/sararellano/precache-manifest.889492927ec68894862be9e8ccd658d9.js",
+    "precache-manifest.a1a11d2dba30213a08a5849ceed2c3f2.js": "/sararellano/precache-manifest.a1a11d2dba30213a08a5849ceed2c3f2.js",
     "service-worker.js": "/sararellano/service-worker.js",
-    "static/css/main.a998d389.chunk.css.map": "/sararellano/static/css/main.a998d389.chunk.css.map",
-    "static/media/CV-SaraArellano-en.pdf": "/sararellano/static/media/CV-SaraArellano-en.60057a9b.pdf",
-    "static/media/certificadoUdemy.jpeg": "/sararellano/static/media/certificadoUdemy.4a00d89f.jpeg",
+    "static/css/main.04b22fcd.chunk.css.map": "/sararellano/static/css/main.04b22fcd.chunk.css.map",
+    "static/media/CV-SaraArellano-EN.pdf": "/sararellano/static/media/CV-SaraArellano-EN.c0c64324.pdf",
+    "static/media/CV-SaraArellano-ES.pdf": "/sararellano/static/media/CV-SaraArellano-ES.ee8e241a.pdf",
     "static/media/es.svg": "/sararellano/static/media/es.91221aeb.svg",
+    "static/media/SobreMi.css": "/sararellano/static/media/fotoSaraArellano.b58e9f02.webp",
     "static/media/gb.svg": "/sararellano/static/media/gb.fcfef678.svg",
     "static/media/gear-audiovisuals.png": "/sararellano/static/media/gear-audiovisuals.81d71834.png",
-    "static/media/Inicio.css": "/sararellano/static/media/inicio.75065b03.jpg",
     "static/media/jsfisio.jpg": "/sararellano/static/media/jsfisio.6a89454b.jpg",
-    "static/media/navalpie.png": "/sararellano/static/media/navalpie.4294b68e.png",
-    "static/media/SobreMi.css": "/sararellano/static/media/sararellano.0c305621.jpg"
+    "static/media/navalpie.png": "/sararellano/static/media/navalpie.4294b68e.png"
   }
 }

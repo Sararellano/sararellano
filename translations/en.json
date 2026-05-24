@@ -1,63 +1,47 @@
 {
 	"menu": {
 		"inicio": "Intro",
-		"sobre-mi": "About me",
+		"sobre-mi": "About",
 		"skills": "Skills",
-		"estudios": "Studies",
+		"estudios": "Education",
 		"experiencia": "Experience",
 		"portfolio": "Portfolio",
 		"contacto": "Contact"
 	},
 	"about-me": {
 		"title": "About me",
-		"phone": "Phone",
-		"ubication": "Ubication",
-		"city": "Madrid, Spain",
-		"description": "<p>I'm Sara Arellano, a <strong>Front-end</strong> programmer specialized in <strong>Vanilla JavaScript, CSS with SASS </strong>as a preprocessor and <strong>Drupal</strong>.</p> <p>I am passionate about learning new features and keep challenging myself.</p><p>Always making my work scalable and generic so it can be reused. Also, of course, always thinking about mobile first, responsive designs and improving the UX.</p><p>I really like being able to help my colleagues and, at the same time, learn from them.</p><br/><p>Besides programming, my other hobbies are animals and my clarinet.</p>"
+		"city": "Seville, Spain · Remote",
+		"description": "<p>Frontend developer with <strong>8 years of experience</strong> across modern and enterprise web stacks. Background built on <strong>Drupal 10</strong> and, more recently, <strong>Laravel 12 + Octane</strong> powering a multi-site monorepo of <strong>80+ websites</strong>.</p><p>Specialized in web performance (Core Web Vitals), scalable frontend architecture, scripting and automation, and technical mentoring. <strong>Full-stack capable</strong>: comfortable making decisions that cross the frontend boundary.</p>"
 	},
 	"skills": {
-		"title": "Skills",
-		"skills": "Knowledge",
-		"trabajo-equipo": "Teamwork",
-		"creatividad": "Creativity",
-		"atencion-detalle": "Attention to detail",
-		"resolver-problemas": "Solve problems",
-		"comunicacion": "Comunication",
-		"aprender-rapidamente": "Learn quickly"
+		"title": "Skills"
 	},
 	"portfolio": {
 		"title": "Portfolio",
-		"js": "Physiotherapy in dreamfit gyms",
-		"gear": "Photography - Company Gear Audiovisuals",
-		"navalpie": "Navalpie - Navalcarnero Podiatry Clinic"
+		"js": "Physiotherapy service at DreamFit gyms.",
+		"gear": "Photography & audiovisual company website.",
+		"navalpie": "Podiatry clinic — Navalcarnero."
 	},
 	"studies": {
-		"title": "Studies",
-		"degree": "<strong>Advertising and PR degree</strong> - <em>College Rey Juan Carlos I, Madrid</em>",
-		"mckinsey": "<strong>Front-end Development</strong> - Higher education <em>Netmind / Endorsed by McKinsey (640h)</em>",
-		"react": "<strong>React.js Course</strong> - <em>Online</em>",
-		"vue": "<strong>Vue.js Course</strong> - <em>Online</em>",
-		"js-adv": "<strong>Advance JavaScript Course</strong> - <em>Telefónica Universitas</em>",
-		"js-vanilla": "<strong>Some courses about JS Vanilla</strong> - <em>Udemy</em>",
-		"bootcamp": "<strong>Web Development Bootcamp</strong> - <em>Udemy</em>",
-		"ci": "<strong>Github Actions - Continuos Integration (CI)</strong> - <em>Youtube</em>"
+		"title": "Education"
 	},
 	"experience": {
 		"title": "Experience",
-		"exp1title": "Frontend and Drupal Developer Junior",
-		"exp1date": "<em>October 2019 - Currently</em>",
-		"exp1descrp1": "When I joined Selectra I knew nothing about Drupal and after a few days I was already creating components in Twig, JS Vanilla and SASS. I have also contributed to the creation of Selectra's own Design System where we use BEM, Atomic Design and all components are reusable.",
-		"exp1descrp2": "I have implemented measures to improve SEO and with my team we have managed to keep our pages from falling below 90/100. I am also responsible for 1 junior developer and am teaching the principles of programming to fellow Service Engineers. In addition to programming, I participate in interviews to attract new programmers and in the creation of exercises to check their level. <strong>Technical Stack:</strong> SASS, Vanilla JS, Gulp, NPM, Node.js, Twig, Pug, Drupal, PHP (basic), Docker (basic), Webpack, Sketch, inVision, Figma",
-		"exp2date": "June 2019 - Currently",
-		"exp2descrp": "Realization and design of several web pages, such as <a href=\"https://navalpie.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Navalpie</a>",
-		"exp3date": "November 2018 - April 2019",
-		"exp3descrp": "I wanted to know more about commercial work and was given the opportunity to start as an account manager. I dedicated myself to attracting new clients and maintaining current ones. Being a programmer, I understood the language and needs of the programmers and was able to \"translate the language\" of the client into real actions for the programmers.",
-		"exp4date": "February 2018 - November 2018",
-		"exp4descrp": "Creation of web pages using <strong>React.js</strong> and <strong>Vue.js</strong>, CSS with SASS and FlexBox, Yarn, Git, Node.js, Sketch, Zeplin and DialogFlow to create conversational bots."
+		"exp1title": "Frontend Developer",
+		"exp1date": "Oct 2019 — Present",
+		"exp1bullets": "<li>Lead frontend development of internal CMS powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (Blade, Alpine.js, Tailwind v4)</li><li><strong>Core Web Vitals</strong>: lifted PageSpeed from <strong>57 → 100</strong> on key sites (kelwatt.fr and others)</li><li>Python script that batch-injected width/height into thousands of Blade templates, eliminating structural layout shift</li><li>Git pre-commit hook to prevent CLS regressions</li><li>External API integrations: <strong>Anthropic Claude API</strong>, Google Search Console, Semrush</li><li>Observability: Sentry, Datadog; testing: Playwright; linting: Laravel Pint</li><li>Mentored <strong>5 junior developers</strong>; led technical interviews and designed evaluation exercises</li>",
+		"exp2title": "Frontend & Drupal Developer",
+		"exp2date": "Oct 2019 — 2024",
+		"exp2bullets": "<li>Co-built Selectra's in-house <strong>Design System</strong> from scratch following Atomic Design (atoms → templates) using SASS/SCSS, Twig and Vanilla JS</li><li>Custom <strong>Drupal 10 module</strong> development in PHP 8.3 (services, DI, events) and Twig theming with Gulp + Webpack build pipelines</li><li>Sustained <strong>Lighthouse score ≥ 90/100</strong> across all owned pages</li><li>E2E testing with <strong>Cypress + Cucumber (BDD)</strong> on Acquia Cloud + multi-arch Docker (x86/ARM)</li>",
+		"exp3title": "Junior Frontend Developer",
+		"exp3date": "Feb 2018 — Nov 2018",
+		"exp3bullets": "<li>Web projects with <strong>React.js</strong>, Node.js, Yarn and SASS. Delivered the ESME landing page among other work</li><li>First experience building conversational bots with <strong>DialogFlow</strong></li>",
+		"achievement-label": "Featured Achievement",
+		"achievement-title": "Core Web Vitals Optimization — Selectra CMS · 2025–2026",
+		"achievement-desc": "<li><strong>Context:</strong> PageSpeed stuck at ~57/100 on key sites, dragged down by structural CLS from images without declared dimensions</li><li><strong>Solution:</strong> Python script that walked the monorepo and batch-processed thousands of Blade templates, injecting width/height on every img tag; complemented with manual above-the-fold fixes</li><li><strong>Prevention:</strong> Git pre-commit hook via prepare script to block regressions</li><li><strong>Outcome:</strong> PageSpeed <span class='achievement-number'>57 → 100</span>. Approach is replicable across the full monorepo</li>"
 	},
 	"contact": {
 		"title": "Contact",
-		"description": "Do not hesitate to contact me for any questions or concerns",
-		"phone": "Phone"
+		"description": "Open to remote opportunities — feel free to reach out."
 	}
 }
