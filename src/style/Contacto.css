@@ -1,27 +1,62 @@
-@media (max-width: 576px) {
-    .contacto .contacto-content {
-        justify-content: start!important;
-    }
-	.contacto a {
-		font-size: 12px;
-	}
+.contacto {
+  padding: 5rem 0;
+  background: var(--bg);
 }
 
-.contacto {
-    padding-top: 50px;
-    padding-bottom: 80px;
+.contact-lead {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  text-align: center;
 }
-.contacto .row {
-    justify-content: center;
-    align-items: center;
+
+.contacto-content {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
 }
-.contacto h5 {
-    margin-bottom: 50px;
+
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+  min-width: 130px;
 }
-.contacto a, .contacto a:visited {
-    color: black;
-    text-decoration: none;
+
+.contact-block:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
 }
-.contacto a:hover, .contacto a:focus {
-    color: #00897B;
+
+.contact-block .contact-icon {
+  font-size: 1.625rem;
+  color: var(--accent);
+}
+
+.contact-block span {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .contacto-content {
+    gap: 0.875rem;
+  }
+
+  .contact-block {
+    min-width: 110px;
+    padding: 1.25rem 1.25rem;
+  }
 }

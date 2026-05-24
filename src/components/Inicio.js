@@ -1,47 +1,89 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 import '../style/Inicio.css';
 import '../style/index.css';
 
-import downloadCV from '../images/CV-SaraArellano-en.pdf'
-
+import downloadCV_EN from '../images/CV-SaraArellano-EN.pdf';
+import downloadCV_ES from '../images/CV-SaraArellano-ES.pdf';
+import flagEN from '../images/gb.svg';
+import flagES from '../images/es.svg';
 
 class Inicio extends Component {
-    // constructor(){
-    //     super();
-
-    // }
-
     render() {
-        return(
-            <div className="inicio" id="inicio">
-                <Row>
-                    <div className="main">
-                        <section id="home" className="home">
-                            <div className="home-overlay"></div>
-                            <div className="home-content">
-                                <div className="home-intro">
-                                    <Col>
-                                        <h2>Hello World! I'm</h2>
-                                        <h1>Sara Arellano</h1>
-                                        <h3>Frontend Developer</h3>
-                                        <a className="download-link download-btn" href={downloadCV} target="_blank" rel="noopener noreferrer">Download CV</a>
-                                        <div className="scroll-down">
-                                            <a href="#SobreMi">
-                                                <div className="scroll-icon">
-                                                    <div className="chevron"></div>
-                                                    <div className="chevron"></div>
-                                                    <div className="chevron"></div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </Col>
-                                </div>
-                            </div>
-                        </section>
+        return (
+            <div className="hero" id="inicio">
+                <div className="hero-content">
+                    <span className="hero-greeting">Hello, World! I'm</span>
+                    <h1 className="hero-name">&lt; Sara Arellano /&gt;</h1>
+                    <h2 className="hero-role">
+                        Senior Frontend Developer&nbsp;
+                        <span className="role-accent">/</span>
+                        &nbsp;Full-Stack capable
+                    </h2>
+                    <p className="hero-tagline">Remote · Seville, Spain</p>
+
+                    <div className="hero-stats">
+                        <div className="stat">
+                            <span className="stat-number">57→99</span>
+                            <span className="stat-label">PageSpeed score</span>
+                        </div>
+                        <div className="stat">
+                            <span className="stat-number">80+</span>
+                            <span className="stat-label">Sites maintained</span>
+                        </div>
+                        <div className="stat">
+                            <span className="stat-number">50+</span>
+                            <span className="stat-label">Departments served</span>
+                        </div>
+                        <div className="stat">
+                            <span className="stat-number">5</span>
+                            <span className="stat-label">Devs mentored</span>
+                        </div>
                     </div>
-                </Row>
+
+                    <div className="hero-actions">
+                        <a className="btn-primary" href={downloadCV_EN} target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faDownload} />
+                            <img src={flagEN} alt="EN" className="btn-flag" />
+                            CV EN
+                        </a>
+                        <a className="btn-secondary" href={downloadCV_ES} target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faDownload} />
+                            <img src={flagES} alt="ES" className="btn-flag" />
+                            CV ES
+                        </a>
+                        <a
+                            className="btn-icon"
+                            href="https://github.com/sararellano"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="GitHub"
+                        >
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                        <a
+                            className="btn-icon"
+                            href="https://linkedin.com/in/sararellano"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="LinkedIn"
+                        >
+                            <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+                        <a
+                            className="btn-icon"
+                            href="https://sararellano.medium.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="Medium"
+                        >
+                            <FontAwesomeIcon icon={faMedium} />
+                        </a>
+                    </div>
+                </div>
             </div>
         );
     }

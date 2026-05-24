@@ -1,11 +1,53 @@
 .estudios {
-    padding-top: 50px;
+  padding: 5rem 0;
+  background: var(--bg);
 }
-.estudios-description {
-    justify-content: center;
-    align-items: center;
+
+.education-list {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
-.estudios-description a {
-	color: inherit;
-	text-decoration: underline;
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: border-color 0.2s;
+}
+
+.education-item:hover {
+  border-color: rgba(20, 184, 166, 0.3);
+}
+
+.education-text strong {
+  color: var(--text);
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.education-text em {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  font-style: normal;
+}
+
+.education-year {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  background: var(--bg-surface);
+  padding: 0.25rem 0.625rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+  flex-shrink: 0;
 }

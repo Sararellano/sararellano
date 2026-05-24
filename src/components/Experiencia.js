@@ -2,91 +2,137 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-// import Titulo from './Titulo';
-
 import '../style/Experiencia.css';
 import '../style/index.css';
 import '../style/Titulo.css';
 
 class Experiencia extends Component {
-    // constructor(){
-    //     super();
-
-    // }
-
     render() {
         return (
             <div className="experiencia" id="experiencia">
-				{/* <Titulo titleText="experiencia" /> */}
-				<Container>
-					<Row>
-						<Col>
-							<ScrollAnimation animateIn="fadeIn">
-								<div className="title">
-									<h4 data-section="experience" data-value="title"> Estudios </h4>
-								</div>
-							</ScrollAnimation>
-						</Col>
-					</Row>
-				</Container>
                 <Container>
                     <Row>
                         <Col>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <div className="experiencia-card">
-                                    <strong data-section="experience" data-value="exp1title">Frontend y Drupal Developer Junior</strong> - <a href="https://selectra.info/" rel="noopener noreferrer" target="_blank">Selectra</a>
-                                    <br />
-                                    <span data-section="experience" data-value="exp1date"><em>Octubre 2019 - Actualidad</em></span>
-									<br />
-									<span data-section="experience" data-value="exp1descrp1"> Cuando entré en Selectra no sabía nada sobre Drupal y después de unos pocos días ya estaba creando componentes en Twig, JS Vanilla y SASS. También he contribuido en la creación de un Design System propio de Selectra donde usamos BEM, Atomic Design y todos los componentes son reutilizables.</span>
-									<br />
-									<span data-section="experience" data-value="exp1descrp2"> He implementado medidas para mejorar el SEO y con mi equipo hemos conseguido que nuestras páginas no bajen del 90/100.
-									También soy responsable de 1 junior developer y estoy enseñando los principios de la programación a compañeros Service Engineers.
-									Además de la programación, participo en entrevistas para captar nuevos programadores y en la creación de ejercicios para comprobar el nivel de los mismos.
-                                    <strong>Technical Stack:</strong> SASS, JS vanilla, Gulp, NPM, Node.js, Twig, Pug, Drupal, PHP (basic), Docker (basic), Webpack, Sketch, inVision, Figma  </span>
+                            <ScrollAnimation animateIn="fadeIn">
+                                <div className="title">
+                                    <h4 data-section="experience" data-value="title">Experience</h4>
                                 </div>
                             </ScrollAnimation>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <div className="experiencia-card">
-                                    <strong>Web Developer</strong> - Freelance
-                                    <br />
-                                    <span><em data-section="experience" data-value="exp2date">Junio 2019 - Actualidad</em></span>
-                                    <br />
-                                    <span data-section="experience" data-value="exp2descrp">Realización y diseño de varias páginas webs, como <a href="https://navalpie.com/" rel="noopener noreferrer" target="_blank">Navalpie</a> </span>
+                </Container>
+                <Container>
+                    <div className="timeline">
+
+                        {/* Selectra — Current Stack */}
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <div className="timeline-item">
+                                <div className="timeline-content">
+                                    <div className="timeline-header">
+                                        <h4 className="timeline-title">
+                                            <span data-section="experience" data-value="exp1title">Frontend Developer</span>
+                                            {' · '}
+                                            <a href="https://selectra.info/" target="_blank" rel="noopener noreferrer">Selectra</a>
+                                        </h4>
+                                        <span className="timeline-date" data-section="experience" data-value="exp1date">Oct 2019 — Present</span>
+                                    </div>
+                                    <div className="timeline-body">
+                                        <ul data-section="experience" data-value="exp1bullets">
+                                            <li>Lead frontend development of internal CMS powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (Blade, Alpine.js, Tailwind v4)</li>
+                                            <li><strong>Core Web Vitals</strong>: lifted PageSpeed from <strong>57 → 99</strong> on key sites (kelwatt.fr and others)</li>
+                                            <li>Python script that batch-injected width/height into thousands of Blade templates, eliminating structural layout shift</li>
+                                            <li>Git pre-commit hook (via <code>prepare</code> script) to prevent CLS regressions</li>
+                                            <li>External API integrations: <strong>Anthropic Claude API</strong>, Google Search Console, Semrush</li>
+                                            <li>Observability: Sentry, Datadog; testing: Pest 4, Playwright; linting: Laravel Pint</li>
+                                            <li>Mentored <strong>5 junior developers</strong>; led technical interviews and designed evaluation exercises</li>
+                                        </ul>
+                                        <div className="chip-row">
+                                            {['Laravel 12', 'Octane', 'Alpine.js', 'Tailwind v4', 'Blade', 'PHP 8.3', 'Docker', 'GitHub Actions', 'Python'].map(t => (
+                                                <span key={t} className="chip">{t}</span>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <ScrollAnimation animateIn='slideInRight'>
-                                <div className="experiencia-card">
-                                    <strong>Accout Manager</strong> - Waavi Studios. S.L
-                                    <br />
-                                    <span><em data-section="experience" data-value="exp3date">Noviembre 2018 - Abril 2019</em></span>
-                                    <br />
-                                    <span data-section="experience" data-value="exp3descrp">Quería saber más acerca del trabajo comercial y me dieron la oportunidad de comenzar como account manager. Me dediqué a la captación de nuevos clientes y del mantenimiento de los actuales. Al ser programadora, comprendía el lenguaje y las necesidades delos programadores y conseguí "traducir el lenguaje" del cliente en acciones reales para los programadores.</span>
+                            </div>
+                        </ScrollAnimation>
+
+                        {/* Selectra — Agrippa / Drupal era */}
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <div className="timeline-item">
+                                <div className="timeline-content">
+                                    <div className="timeline-header">
+                                        <h4 className="timeline-title">
+                                            <span data-section="experience" data-value="exp2title">Frontend &amp; Drupal Developer</span>
+                                            {' · '}
+                                            <a href="https://selectra.info/" target="_blank" rel="noopener noreferrer">Selectra — Agrippa</a>
+                                        </h4>
+                                        <span className="timeline-date" data-section="experience" data-value="exp2date">Oct 2019 — 2024</span>
+                                    </div>
+                                    <div className="timeline-body">
+                                        <ul data-section="experience" data-value="exp2bullets">
+                                            <li>Co-built Selectra's in-house <strong>Design System</strong> from scratch following Atomic Design (atoms → templates) using SASS/SCSS, Twig and Vanilla JS</li>
+                                            <li>Custom <strong>Drupal 10 module</strong> development in PHP 8.3 (services, DI, events) and Twig theming with Gulp + Webpack build pipelines</li>
+                                            <li>Sustained <strong>Lighthouse score ≥ 90/100</strong> across all owned pages</li>
+                                            <li>E2E testing with <strong>Cypress + Cucumber (BDD)</strong> on Acquia Cloud + multi-arch Docker (x86/ARM)</li>
+                                        </ul>
+                                        <div className="chip-row">
+                                            {['Drupal 10', 'PHP 8.3', 'SASS/SCSS', 'Twig', 'Atomic Design', 'BEM', 'Cypress', 'Acquia Cloud'].map(t => (
+                                                <span key={t} className="chip">{t}</span>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
-                            </ScrollAnimation>
-                        </Col>
-					</Row>
-					<Row>
-                        <Col>
-                            <ScrollAnimation animateIn='slideInLeft'>
-                                <div className="experiencia-card">
-                                    <strong>Frontend Developer Junior</strong> - Waavi Studios. S.L
-                                    <br />
-                                    <span><em data-section="experience" data-value="exp4date">Febrero 2018 - Noviembre 2018</em></span>
-                                    <br />
-                                    <span data-section="experience" data-value="exp4descrp">Realización de páginas webs usando <strong>React.js</strong> y <strong>Vue.js</strong>, CSS con SASS y FlexBox, Yarn, Git, Node.js, Sketch, Zeplin y DialogFlow para crear bots conversacionales. </span>
+                            </div>
+                        </ScrollAnimation>
+
+                        {/* Waavi */}
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <div className="timeline-item">
+                                <div className="timeline-content">
+                                    <div className="timeline-header">
+                                        <h4 className="timeline-title">
+                                            <span data-section="experience" data-value="exp3title">Junior Frontend Developer</span>
+                                            {' · '}
+                                            Waavi Studios
+                                        </h4>
+                                        <span className="timeline-date" data-section="experience" data-value="exp3date">Feb 2018 — Nov 2018</span>
+                                    </div>
+                                    <div className="timeline-body">
+                                        <ul data-section="experience" data-value="exp3bullets">
+                                            <li>Web projects with <strong>React.js</strong>, Node.js, Yarn and SASS. Delivered the ESME landing page among other work</li>
+                                            <li>First experience building conversational bots with <strong>DialogFlow</strong></li>
+                                        </ul>
+                                        <div className="chip-row">
+                                            {['React.js', 'Vue.js', 'Node.js', 'SASS', 'DialogFlow', 'Git'].map(t => (
+                                                <span key={t} className="chip">{t}</span>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
+                            </div>
+                        </ScrollAnimation>
+
+                    </div>
+
+                    {/* Featured achievement */}
+                    <ScrollAnimation animateIn="fadeInUp">
+                        <div className="achievement-card">
+                            <p className="achievement-label" data-section="experience" data-value="achievement-label">
+                                Featured Achievement
+                            </p>
+                            <h4 className="achievement-title" data-section="experience" data-value="achievement-title">
+                                Core Web Vitals Optimization — Selectra CMS · 2025–2026
+                            </h4>
+                            <div className="achievement-body">
+                                <ul data-section="experience" data-value="achievement-desc">
+                                    <li><strong>Context:</strong> PageSpeed stuck at ~57/100 on key sites (kelwatt.fr), dragged down by structural CLS from images without declared dimensions</li>
+                                    <li><strong>Solution:</strong> Python script that walked the monorepo and batch-processed thousands of Blade templates, injecting width/height on every {'<img>'} tag; complemented with manual above-the-fold fixes</li>
+                                    <li><strong>Prevention:</strong> Git pre-commit hook via <code>prepare</code> script in package.json to block regressions</li>
+                                    <li><strong>Outcome:</strong> PageSpeed <span className="achievement-number">57 → 99</span>. Approach is replicable across the full monorepo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
                 </Container>
             </div>
         );

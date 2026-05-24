@@ -1,87 +1,103 @@
-@media(max-width: 576px) {
-    .info-text {
-        padding-left: 10px!important;
-    }
+.sobreMi {
+  padding: 5rem 0;
+  background: var(--bg-surface);
 }
 
-.sobreMi {
-    padding-top: 50px;
-}
 .sobreMi-content {
-    justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-top: 2.5rem;
 }
+
+.profile-col {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .profile-pic {
-    border: 2px solid #00897B;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../images/sararellano.jpg);
-    margin-bottom: 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/fotoSaraArellano.webp');
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 30px rgba(20, 184, 166, 0.2);
 }
-.info-block{
-    margin-bottom: 14px;
-    margin-top: 14px;
-    display: flex;
-    align-items: center;
+
+.bio-col {
+  flex: 1;
+  min-width: 0;
 }
-.info-icon {
-    height: 57px;
-    min-width: 57px;
-    background: #00897B;
-    float: left;
-}
-.svg-inline--fa {
-    color: #fff;
-    font-size: 22px;
-    height: 100%;
-}
-.hvr-trim {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-}
-.hvr-trim:before {
-    content: '';
-    position: absolute;
-    border: #fff solid 4px;
-    top: 4px;
-    left: 4px;
-    right: 4px;
-    bottom: 4px;
-    opacity: 0;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: opacity;
-    transition-property: opacity;
-}
-.info-block:hover .hvr-trim:before {
-    opacity: 1;
-}
-.info-text {
-    padding-left: 30px;
-    font-size: 17px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    text-align: left;
-}
-.info-text span {
-    display: block;
-    margin-bottom: 5px;
-}
-.info-text a {
-	color: inherit;
-	text-decoration: underline;
-}
+
 .description {
-    margin-top: 30px;
+  color: var(--text-muted);
+  line-height: 1.8;
+  font-size: 0.9375rem;
+  margin-bottom: 2rem;
+}
+
+.description p {
+  margin-bottom: 0.75rem;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
+}
+
+.description strong,
+.description b {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.contact-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.contact-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.875rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.contact-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-chip.plain {
+  cursor: default;
+}
+
+.contact-chip.plain:hover {
+  color: var(--text-muted);
+  border-color: var(--border);
+}
+
+@media (max-width: 768px) {
+  .sobreMi-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .bio-col {
+    width: 100%;
     text-align: left;
-    padding: 15px;
+  }
 }

@@ -1,91 +1,93 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone, faGlobe, faMapMarker } from '@fortawesome/free-solid-svg-icons'
-// import Titulo from './Titulo'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 import '../style/SobreMi.css';
 import '../style/index.css';
 import '../style/Titulo.css';
 
 class SobreMi extends Component {
-    // constructor(){
-    //     super();
-
-    // }
-
     render() {
-        return(
+        return (
             <div className="sobreMi" id="sobreMi">
                 <Container>
-					<Row>
-						<Col>
-							<ScrollAnimation animateIn="fadeIn">
-								<div className="title">
-									<h4 data-section="about-me" data-value="title"> Sobre mi </h4>
-								</div>
-							</ScrollAnimation>
-						</Col>
-					</Row>
-				</Container>
-                <Container>
+                    <Row>
+                        <Col>
+                            <ScrollAnimation animateIn="fadeIn">
+                                <div className="title">
+                                    <h4 data-section="about-me" data-value="title">About me</h4>
+                                </div>
+                            </ScrollAnimation>
+                        </Col>
+                    </Row>
                     <Row className="sobreMi-content">
-                        <ScrollAnimation animateIn="slideInLeft">
-                            <Col sm={12} md={3}>
+                        <Col sm={12} md={3} className="profile-col">
+                            <ScrollAnimation animateIn="fadeIn">
                                 <div className="profile-pic"></div>
-                            </Col>
-                        </ScrollAnimation>
-                        <Col sm={12} md={9}>
-                            <Row className="sobreMi-info">
-                                <ScrollAnimation animateIn="slideInRight">
-                                    <Col>
-                                        <div className="info-block wow">
-                                            <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faEnvelope} /></div>
-                                            <div className="info-text">
-                                                <span><strong>Email</strong></span>
-                                                <a href="mailto:sararellano@gmail.com"> sararellano@gmail.com </a>
-                                            </div>
-                                        </div>
+                            </ScrollAnimation>
+                        </Col>
+                        <Col sm={12} md={9} className="bio-col">
+                            <ScrollAnimation animateIn="fadeInRight">
+                                <div
+                                    className="description"
+                                    data-section="about-me"
+                                    data-value="description"
+                                >
+                                    <p>
+                                        Frontend developer with <strong>8 years of experience</strong> across modern and
+                                        enterprise web stacks. Background built on <strong>Drupal 10</strong> and, more
+                                        recently, <strong>Laravel 12 + Octane</strong> powering a multi-site monorepo of{' '}
+                                        <strong>80+ websites</strong>.
+                                    </p>
+                                    <p>
+                                        Specialized in web performance (Core Web Vitals), scalable frontend architecture,
+                                        scripting and automation, and technical mentoring.{' '}
+                                        <strong>Full-stack capable</strong>: comfortable making decisions that cross the
+                                        frontend boundary.
+                                    </p>
+                                </div>
 
-                                        <div className="info-block wow">
-                                            <div className="info-icon hvr-trim"><FontAwesomeIcon icon={faPhone} /></div>
-                                            <div className="info-text">
-                                                <span><strong data-section="about-me" data-value="phone">Teléfono</strong></span>
-                                                +34 663176344
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </ScrollAnimation>
-
-                                <ScrollAnimation animateIn="slideInRight">
-                                    <Col>
-                                        <div className=" info-block wow ">
-                                            <div className="info-icon hvr-trim"> <FontAwesomeIcon icon={faGlobe} /></div>
-                                            <div className="info-text">
-                                                <span><strong>Medium</strong></span>
-                                                <a href="https://sararellano.medium.com/"> https://sararellano.medium.com/ </a>
-                                            </div>
-                                        </div>
-                                        <div className=" info-block wow ">
-                                            <div className="info-icon hvr-trim"><FontAwesomeIcon icon={faMapMarker} /> </div>
-                                            <div className="info-text">
-                                                <span><strong data-section="about-me" data-value="ubication">Ubicación</strong></span>
-                                                <span data-section="about-me" data-value="city">Madrid, España</span>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </ScrollAnimation>
-                            </Row>
-                            <Row className="description" data-section="about-me" data-value="description">
-                                <p>Soy Sara Arellano, programadora <strong>Front-end</strong> especializada en <strong> JavaScript Vanilla, CSS con SASS  </strong>como preprocesador y <strong>Drupal</strong>.</p>
-								<p>Soy una apasionada por aprender nuevas funcionalidades y por seguir retándome a mi misma.</p>
-								<p>Siempre haciendo que mi trabajo sea escalable y genérico para que pueda ser reutilizado. También, por supuesto, pensando siempre en mobile first, en diseños responsive y en mejorar la UX.</p>
-                                <p>Me gusta mucho poder ayudar a mis compañeros y, a la vez, aprender de ellos.</p>
-                                <br />
-                                <p>A parte de la programación, mis otros hobbies son los animales y mi clarinete.</p>
-                            </Row>
+                                <div className="contact-chips">
+                                    <a href="mailto:sararellano@gmail.com" className="contact-chip">
+                                        <FontAwesomeIcon icon={faEnvelope} />
+                                        sararellano@gmail.com
+                                    </a>
+                                    <a
+                                        href="https://github.com/sararellano"
+                                        className="contact-chip"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <FontAwesomeIcon icon={faGithub} />
+                                        github.com/sararellano
+                                    </a>
+                                    <a
+                                        href="https://linkedin.com/in/sararellano"
+                                        className="contact-chip"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <FontAwesomeIcon icon={faLinkedin} />
+                                        linkedin.com/in/sararellano
+                                    </a>
+                                    <a
+                                        href="https://sararellano.medium.com/"
+                                        className="contact-chip"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <FontAwesomeIcon icon={faMedium} />
+                                        Medium
+                                    </a>
+                                    <span className="contact-chip plain">
+                                        <FontAwesomeIcon icon={faMapMarkerAlt} />
+                                        <span data-section="about-me" data-value="city">Seville, Spain · Remote</span>
+                                    </span>
+                                </div>
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                 </Container>

@@ -1,79 +1,103 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-// import Titulo from './Titulo';
 import jsFisio from '../images/jsfisio.jpg';
 import GEAR from '../images/gear-audiovisuals.png';
 import navalpie from '../images/navalpie.png';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import '../style/Portfolio.css';
 import '../style/index.css';
 import '../style/Titulo.css';
 
+const PROJECTS = [
+    {
+        key: 'js',
+        img: jsFisio,
+        alt: 'JS Fisioterapia',
+        title: 'JS Fisioterapia',
+        descKey: 'js',
+        descDefault: 'Physiotherapy service at DreamFit gyms.',
+        url: 'http://www.jsfisioterapia.com/',
+        chips: ['Drupal', 'SASS', 'JS Vanilla'],
+    },
+    {
+        key: 'gear',
+        img: GEAR,
+        alt: 'Gear Audiovisuals',
+        title: 'Gear Audiovisuals',
+        descKey: 'gear',
+        descDefault: 'Photography & audiovisual company website.',
+        url: 'http://gear-audiovisuals.es',
+        chips: ['SASS', 'HTML5', 'CSS3'],
+    },
+    {
+        key: 'navalpie',
+        img: navalpie,
+        alt: 'Navalpie Podología',
+        title: 'Navalpie',
+        descKey: 'navalpie',
+        descDefault: 'Podiatry clinic — Navalcarnero.',
+        url: 'https://navalpie.com',
+        chips: ['WordPress', 'CSS3', 'JS'],
+    },
+];
+
 class Portfolio extends Component {
-    // constructor(){
-    //     super();
-
-    // }
-
     render() {
         return (
             <div className="portfolio" id="portfolio">
-				{/* <Titulo titleText="portfolio" /> */}
-				<Container>
-					<Row>
-						<Col>
-							<ScrollAnimation animateIn="fadeIn">
-								<div className="title">
-									<h4 data-section="portfolio" data-value="title"> Portfolio </h4>
-								</div>
-							</ScrollAnimation>
-						</Col>
-					</Row>
-				</Container>
                 <Container>
                     <Row>
-                        <Col className="portfolio-col">
-                            <div className="ih-item square colored effect4">
-                                <a href="http://www.jsfisioterapia.com/" target="_blank" rel="noopener noreferrer">
-                                    <div className="img"><img src={jsFisio} alt="Fisioterapia gimnasios Dreamfit" /></div>
-                                    <div className="mask1"></div>
-                                    <div className="mask2"></div>
-                                    <div className="info">
-                                        <h3>JS Fisioterapia</h3>
-                                        <p data-section="portfolio" data-value="js">Fisioterapia en los gimnasios DreamFit</p>
-                                    </div>
-                                </a>
-                            </div>
+                        <Col>
+                            <ScrollAnimation animateIn="fadeIn">
+                                <div className="title">
+                                    <h4 data-section="portfolio" data-value="title">Portfolio</h4>
+                                </div>
+                            </ScrollAnimation>
                         </Col>
-
-                        <Col className="portfolio-col">
-                            <div className="ih-item square colored effect4">
-                                <a href="http://gear-audiovisuals.es" target="_blank" rel="noopener noreferrer">
-                                    <div className="img"><img src={GEAR} alt="Empresa audiovisual" /></div>
-                                    <div className="mask1"></div>
-                                    <div className="mask2"></div>
-                                    <div className="info">
-                                        <h3>Gear Audiovisuals</h3>
-                                        <p data-section="portfolio" data-value="gear">Fotografía - Empresa Gear Audiovisuals</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </Col>
-
-                        <Col className="portfolio-col">
-                            <div className="ih-item square colored effect4">
-                                <a href="https://navalpie.com" target="_blank" rel="noopener noreferrer">
-                                    <div className="img"><img src={navalpie} alt="clinica podologica Navalpie" /></div>
-                                    <div className="mask1"></div>
-                                    <div className="mask2"></div>
-                                    <div className="info">
-                                        <h3>Navalpie</h3>
-                                        <p data-section="portfolio" data-value="navalpie">Navalpie - Clínica podología Navalcarnero</p>
-                                    </div>
-                                </a>
-                            </div>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <ScrollAnimation animateIn="fadeInUp">
+                                <div className="portfolio-grid">
+                                    {PROJECTS.map((project) => (
+                                        <a
+                                            key={project.key}
+                                            className="portfolio-card"
+                                            href={project.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className="portfolio-card-img"
+                                                src={project.img}
+                                                alt={project.alt}
+                                            />
+                                            <div className="portfolio-card-body">
+                                                <h3 className="portfolio-card-title">{project.title}</h3>
+                                                <p
+                                                    className="portfolio-card-desc"
+                                                    data-section="portfolio"
+                                                    data-value={project.descKey}
+                                                >
+                                                    {project.descDefault}
+                                                </p>
+                                                <div className="portfolio-card-footer">
+                                                    <div className="chip-row">
+                                                        {project.chips.map(c => (
+                                                            <span key={c} className="chip">{c}</span>
+                                                        ))}
+                                                    </div>
+                                                    <span className="portfolio-link">
+                                                        Visit ↗
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    ))}
+                                </div>
+                            </ScrollAnimation>
                         </Col>
                     </Row>
                 </Container>

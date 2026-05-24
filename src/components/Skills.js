@@ -1,152 +1,60 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
-
-// import Titulo from './Titulo';
 
 import '../style/Skills.css';
 import '../style/index.css';
 import '../style/Titulo.css';
 
+const SKILL_GROUPS = [
+    {
+        label: 'Frontend',
+        skills: ['JavaScript ES6+', 'Alpine.js', 'Tailwind v4', 'SASS/SCSS', 'HTML5 / CSS3', 'Blade', 'Twig', 'Vite 7', 'Webpack', 'Gulp', 'Atomic Design', 'BEM', 'Chart.js'],
+    },
+    {
+        label: 'Backend',
+        skills: ['PHP 8.3', 'Laravel 12', 'Drupal 10', 'Octane + RoadRunner', 'Python 3', 'Composer', 'PSR-4', 'DomPDF'],
+    },
+    {
+        label: 'Infra / DevOps',
+        skills: ['Docker', 'Laravel Sail', 'Git / GitHub', 'GitHub Actions', 'Acquia Cloud', 'Cloudflare R2', 'AWS SDK', 'Kubernetes', 'Bash / Zsh'],
+    },
+    {
+        label: 'Testing & Quality',
+        skills: ['Pest 4', 'Playwright', 'Cypress 10', 'Cucumber BDD', 'PHPStan', 'Laravel Pint', 'Sentry', 'Datadog'],
+    },
+];
+
 class Skills extends Component {
-    // constructor(){
-    //     super();
-
-    // }
-
-
-	render() {
-        return(
+    render() {
+        return (
             <div className="skills" id="skills">
-				{/* <Titulo titleText="skills" /> */}
-				<Container>
-					<Row>
-						<Col>
-							<ScrollAnimation animateIn="fadeIn">
-								<div className="title">
-									<h4 data-section="skills" data-value="title"> Skills </h4>
-								</div>
-							</ScrollAnimation>
-						</Col>
-					</Row>
-				</Container>
                 <Container>
                     <Row>
-                        <Col> <h3 data-section="skills" data-value="skills">Conocimientos</h3></Col>
-                    </Row>
-                    <Row>
-					<Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={100} label={"HTML/CSS"} className="bar1" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={100} label={"Responsive Design"} className="bar2" />
+                        <Col>
+                            <ScrollAnimation animateIn="fadeIn">
+                                <div className="title">
+                                    <h4 data-section="skills" data-value="title">Skills</h4>
+                                </div>
                             </ScrollAnimation>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={75} label={"NPM"} className="bar3" />
+                </Container>
+                <Container>
+                    <div className="skill-groups">
+                        {SKILL_GROUPS.map((group) => (
+                            <ScrollAnimation key={group.label} animateIn="fadeInUp">
+                                <div className="skill-group">
+                                    <h5>{group.label}</h5>
+                                    <div className="chip-row">
+                                        {group.skills.map((skill) => (
+                                            <span key={skill} className="chip">{skill}</span>
+                                        ))}
+                                    </div>
+                                </div>
                             </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={90} label={"SASS preprocessor"} className="bar4" />
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={70} label={"Node.js"} className="bar5" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={60} label={"JS Vanilla"} className="bar6" />
-                            </ScrollAnimation>
-                        </Col>
-					</Row>
-					<Row>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={75} label={"Gulp"} className="bar7" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={30} label={"PHP"} className="bar8" />
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInLeft">
-                                <ProgressBar now={70} label={"Drupal"} className="bar9" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-                            <ScrollAnimation animateIn="slideInRight">
-                                <ProgressBar now={85} label={"Git"} className="bar10" />
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col> <h3>Soft-Skills</h3></Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-							<ScrollAnimation animateIn="slideInLeft">
-								<span className="to-sibling" data-section="skills" data-value="trabajo-equipo"></span>
-								<ProgressBar now={100} label={"Trabajo en equipo"} className="bar9" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-							<ScrollAnimation animateIn="slideInRight">
-								<span className="to-sibling" data-section="skills" data-value="creatividad"></span>
-                                <ProgressBar now={100} label={"Creatividad"} className="bar10" />
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-							<ScrollAnimation animateIn="slideInLeft">
-								<span className="to-sibling" data-section="skills" data-value="atencion-detalle"></span>
-                                <ProgressBar now={100} label={"Atención al detalle"} className="bar11" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-							<ScrollAnimation animateIn="slideInRight">
-								<span className="to-sibling" data-section="skills" data-value="resolver-problemas"></span>
-                                <ProgressBar now={100} label={"Resolver problemas"} className="bar12" />
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col sm={12} md={5}>
-							<ScrollAnimation animateIn="slideInLeft">
-								<span className="to-sibling" data-section="skills" data-value="comunicacion"></span>
-                                <ProgressBar now={100} label={"Comunicación"} className="bar13" />
-                            </ScrollAnimation>
-                        </Col>
-                        <Col md={2}></Col>
-                        <Col sm={12} md={5}>
-							<ScrollAnimation animateIn="slideInRight">
-								<span className="to-sibling" data-section="skills" data-value="aprender-rapidamente"></span>
-                                <ProgressBar now={100} label={"Aprender rápidamente"} className="bar14" />
-                            </ScrollAnimation>
-                        </Col>
-                    </Row>
+                        ))}
+                    </div>
                 </Container>
             </div>
         );
