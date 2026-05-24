@@ -27,7 +27,7 @@ class Inicio extends Component {
 
                     <div className="hero-stats">
                         <div className="stat">
-                            <span className="stat-number">57→99</span>
+                            <span className="stat-number">57→100</span>
                             <span className="stat-label">PageSpeed score</span>
                         </div>
                         <div className="stat">

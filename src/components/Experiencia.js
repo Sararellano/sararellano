@@ -39,11 +39,11 @@ class Experiencia extends Component {
                                     <div className="timeline-body">
                                         <ul data-section="experience" data-value="exp1bullets">
                                             <li>Lead frontend development of internal CMS powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (Blade, Alpine.js, Tailwind v4)</li>
-                                            <li><strong>Core Web Vitals</strong>: lifted PageSpeed from <strong>57 → 99</strong> on key sites (kelwatt.fr and others)</li>
+                                            <li><strong>Core Web Vitals</strong>: lifted PageSpeed from <strong>57 → 100</strong> on key sites (kelwatt.fr and others)</li>
                                             <li>Python script that batch-injected width/height into thousands of Blade templates, eliminating structural layout shift</li>
                                             <li>Git pre-commit hook (via <code>prepare</code> script) to prevent CLS regressions</li>
                                             <li>External API integrations: <strong>Anthropic Claude API</strong>, Google Search Console, Semrush</li>
-                                            <li>Observability: Sentry, Datadog; testing: Pest 4, Playwright; linting: Laravel Pint</li>
+                                            <li>Observability: Sentry, Datadog; testing: Playwright; linting: Laravel Pint</li>
                                             <li>Mentored <strong>5 junior developers</strong>; led technical interviews and designed evaluation exercises</li>
                                         </ul>
                                         <div className="chip-row">
@@ -128,7 +128,7 @@ class Experiencia extends Component {
                                     <li><strong>Context:</strong> PageSpeed stuck at ~57/100 on key sites (kelwatt.fr), dragged down by structural CLS from images without declared dimensions</li>
                                     <li><strong>Solution:</strong> Python script that walked the monorepo and batch-processed thousands of Blade templates, injecting width/height on every {'<img>'} tag; complemented with manual above-the-fold fixes</li>
                                     <li><strong>Prevention:</strong> Git pre-commit hook via <code>prepare</code> script in package.json to block regressions</li>
-                                    <li><strong>Outcome:</strong> PageSpeed <span className="achievement-number">57 → 99</span>. Approach is replicable across the full monorepo</li>
+                                    <li><strong>Outcome:</strong> PageSpeed <span className="achievement-number">57 → 100</span>. Approach is replicable across the full monorepo</li>
                                 </ul>
                             </div>
                         </div>
