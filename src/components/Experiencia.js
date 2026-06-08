@@ -38,7 +38,7 @@ class Experiencia extends Component {
                                     </div>
                                     <div className="timeline-body">
                                         <ul data-section="experience" data-value="exp1bullets">
-                                            <li>Lead frontend development of internal CMS powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (Blade, Alpine.js, Tailwind v4)</li>
+                                            <li>I worked on the frontend development of internal CMS powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (Blade, Alpine.js, Tailwind v4)</li>
                                             <li><strong>Core Web Vitals</strong>: lifted PageSpeed from <strong>57 → 100</strong> on key sites (kelwatt.fr and others)</li>
                                             <li>Python script that batch-injected width/height into thousands of Blade templates, eliminating structural layout shift</li>
                                             <li>Git pre-commit hook (via <code>prepare</code> script) to prevent CLS regressions</li>
@@ -47,7 +47,7 @@ class Experiencia extends Component {
                                             <li>Mentored <strong>5 junior developers</strong>; led technical interviews and designed evaluation exercises</li>
                                         </ul>
                                         <div className="chip-row">
-                                            {['Laravel 12', 'Octane', 'Alpine.js', 'Tailwind v4', 'Blade', 'PHP 8.3', 'Docker', 'GitHub Actions', 'Python'].map(t => (
+                                            {['Laravel 12', 'Alpine.js', 'Tailwind v4', 'Blade', 'PHP 8.3', 'Docker', 'GitHub Actions', 'Python'].map(t => (
                                                 <span key={t} className="chip">{t}</span>
                                             ))}
                                         </div>
@@ -73,10 +73,10 @@ class Experiencia extends Component {
                                             <li>Co-built Selectra's in-house <strong>Design System</strong> from scratch following Atomic Design (atoms → templates) using SASS/SCSS, Twig and Vanilla JS</li>
                                             <li>Custom <strong>Drupal 10 module</strong> development in PHP 8.3 (services, DI, events) and Twig theming with Gulp + Webpack build pipelines</li>
                                             <li>Sustained <strong>Lighthouse score ≥ 90/100</strong> across all owned pages</li>
-                                            <li>E2E testing with <strong>Cypress + Cucumber (BDD)</strong> on Acquia Cloud + multi-arch Docker (x86/ARM)</li>
+                                            <li>E2E testing on Acquia Cloud + multi-arch Docker (x86/ARM)</li>
                                         </ul>
                                         <div className="chip-row">
-                                            {['Drupal 10', 'PHP 8.3', 'SASS/SCSS', 'Twig', 'Atomic Design', 'BEM', 'Cypress', 'Acquia Cloud'].map(t => (
+                                            {['Drupal 10', 'PHP 8.3', 'SASS/SCSS', 'Twig', 'Atomic Design', 'BEM', 'Acquia Cloud'].map(t => (
                                                 <span key={t} className="chip">{t}</span>
                                             ))}
                                         </div>

@@ -13,7 +13,7 @@ const SKILL_GROUPS = [
     },
     {
         label: 'Backend',
-        skills: ['PHP 8.3', 'Laravel 12', 'Drupal 10', 'Octane + RoadRunner', 'Python 3', 'Composer'],
+        skills: ['PHP 8.3', 'Laravel 12', 'Drupal 10', 'Python 3', 'Composer'],
     },
     {
         label: 'Infra / DevOps',
@@ -21,7 +21,7 @@ const SKILL_GROUPS = [
     },
     {
         label: 'Testing & Quality',
-        skills: ['Playwright', 'Cypress 10', 'Cucumber BDD', 'PHPStan', 'Laravel Pint', 'Sentry', 'Datadog'],
+        skills: ['Playwright', 'PHPStan', 'Sentry', 'Datadog'],
     },
 ];
 

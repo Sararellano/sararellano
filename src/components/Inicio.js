@@ -19,9 +19,9 @@ class Inicio extends Component {
                     <span className="hero-greeting">Hello, World! I'm</span>
                     <h1 className="hero-name">&lt; Sara Arellano /&gt;</h1>
                     <h2 className="hero-role">
-                        Senior Frontend Developer&nbsp;
+                        Senior Frontend Engineer&nbsp;
                         <span className="role-accent">/</span>
-                        &nbsp;Full-Stack capable
+                        &nbsp;AI-Focused Software Engineer
                     </h2>
                     <p className="hero-tagline">Remote · Seville, Spain</p>
 
