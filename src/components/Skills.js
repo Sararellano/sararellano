@@ -9,7 +9,36 @@ import '../style/Titulo.css';
 const SKILL_GROUPS = [
     {
         label: 'Frontend',
-        skills: ['JavaScript ES6+', 'Alpine.js', 'Tailwind v4', 'SASS/SCSS', 'HTML5 / CSS3', 'Blade', 'Twig', 'Vite 7', 'Webpack', 'Gulp', 'Atomic Design', 'BEM', 'Chart.js'],
+        skills: [
+            'React 19',
+            'Next.js 15 (App Router)',
+            'TypeScript',
+            'JavaScript ES6+',
+            'React Hooks',
+            'Server Components',
+            'Tailwind v4',
+            'SASS/SCSS',
+            'HTML5 / CSS3',
+            'Alpine.js',
+            'Vite 7',
+            'Webpack',
+            'Atomic Design',
+            'BEM',
+            'Chart.js',
+            'Blade',
+            'Twig',
+            'Gulp',
+        ],
+    },
+    {
+        label: 'AI & APIs',
+        skills: [
+            'Claude API',
+            'OpenAI API',
+            'Prompt Engineering',
+            'MapLibre GL',
+            'Vercel',
+        ],
     },
     {
         label: 'Backend',
@@ -21,7 +50,7 @@ const SKILL_GROUPS = [
     },
     {
         label: 'Testing & Quality',
-        skills: ['Playwright', 'PHPStan', 'Sentry', 'Datadog'],
+        skills: ['Playwright', 'React Testing Library', 'PHPStan', 'Sentry', 'Datadog'],
     },
 ];
 
