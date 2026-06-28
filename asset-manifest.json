@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/sararellano/static/css/main.f1a44c6f.chunk.css",
-    "main.js": "/sararellano/static/js/main.ce2b59e4.chunk.js",
-    "main.js.map": "/sararellano/static/js/main.ce2b59e4.chunk.js.map",
+    "main.css": "/sararellano/static/css/main.971b640d.chunk.css",
+    "main.js": "/sararellano/static/js/main.85c01853.chunk.js",
+    "main.js.map": "/sararellano/static/js/main.85c01853.chunk.js.map",
     "runtime~main.js": "/sararellano/static/js/runtime~main.e0f338f5.js",
     "runtime~main.js.map": "/sararellano/static/js/runtime~main.e0f338f5.js.map",
-    "static/js/2.49b82f56.chunk.js": "/sararellano/static/js/2.49b82f56.chunk.js",
-    "static/js/2.49b82f56.chunk.js.map": "/sararellano/static/js/2.49b82f56.chunk.js.map",
+    "static/js/2.f314988f.chunk.js": "/sararellano/static/js/2.f314988f.chunk.js",
+    "static/js/2.f314988f.chunk.js.map": "/sararellano/static/js/2.f314988f.chunk.js.map",
     "index.html": "/sararellano/index.html",
-    "precache-manifest.4049277fe7da5db6edded56feb8c82a9.js": "/sararellano/precache-manifest.4049277fe7da5db6edded56feb8c82a9.js",
+    "precache-manifest.0d5de8670afec64069afe87068d16a7d.js": "/sararellano/precache-manifest.0d5de8670afec64069afe87068d16a7d.js",
     "service-worker.js": "/sararellano/service-worker.js",
-    "static/css/main.f1a44c6f.chunk.css.map": "/sararellano/static/css/main.f1a44c6f.chunk.css.map",
-    "static/media/CV-SaraArellano-EN.pdf": "/sararellano/static/media/CV-SaraArellano-EN.26e1ebc3.pdf",
-    "static/media/CV-SaraArellano-ES.pdf": "/sararellano/static/media/CV-SaraArellano-ES.383c9dc5.pdf",
+    "static/css/main.971b640d.chunk.css.map": "/sararellano/static/css/main.971b640d.chunk.css.map",
+    "static/media/CV-SaraArellano-EN.pdf": "/sararellano/static/media/CV-SaraArellano-EN.dc7edbd9.pdf",
+    "static/media/CV-SaraArellano-ES.pdf": "/sararellano/static/media/CV-SaraArellano-ES.4ccba603.pdf",
+    "static/media/ai-job-agent.webp": "/sararellano/static/media/ai-job-agent.33e36d53.webp",
+    "static/media/balizas-v16.webp": "/sararellano/static/media/balizas-v16.7e766603.webp",
     "static/media/es.svg": "/sararellano/static/media/es.91221aeb.svg",
     "static/media/SobreMi.css": "/sararellano/static/media/fotoSaraArellano.b58e9f02.webp",
-    "static/media/gb.svg": "/sararellano/static/media/gb.fcfef678.svg"
+    "static/media/gb.svg": "/sararellano/static/media/gb.fcfef678.svg",
+    "static/media/personal-historian.webp": "/sararellano/static/media/personal-historian.3e73a9d8.webp",
+    "static/media/selectra-info.webp": "/sararellano/static/media/selectra-info.e8723159.webp",
+    "static/media/selectra-kelwatt.webp": "/sararellano/static/media/selectra-kelwatt.8d3c9327.webp"
   }
 }

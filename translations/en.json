@@ -18,9 +18,15 @@
 	},
 	"portfolio": {
 		"title": "Portfolio",
-		"js": "Physiotherapy service at DreamFit gyms.",
-		"gear": "Photography & audiovisual company website.",
-		"navalpie": "Podiatry clinic — Navalcarnero."
+		"selectra-kelwatt": "Core Web Vitals optimization: PageSpeed 57→100. Frontend on flat-file CMS (Blade, Alpine.js, Tailwind v4).",
+		"selectra-info": "Corporate site within Selectra ecosystem (80+ sites). UI design by me (layout, components, and visual experience). Design System, performance, sustained maintenance.",
+		"balizas": "Real-time map of active V16 emergency beacons in Spain. Region filters, clustering, 60s refresh. Featured on Tiny Tool Town.",
+		"personal-historian": "AI-guided journaling: one reflective question per day that builds a personal biography. Private by design.",
+		"ai-job-agent": "Fullstack SaaS that generates tailored CV and cover letter from a job posting URL or description. Prompt engineering with Claude + OpenAI.",
+		"visit": "Visit ↗",
+		"tinytooltown": "Tiny Tool Town ↗",
+		"status-live": "Live",
+		"status-in-progress": "In progress"
 	},
 	"studies": {
 		"title": "Education"
