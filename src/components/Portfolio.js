@@ -7,6 +7,7 @@ import selectraInfo from '../images/portfolio/selectra-info.webp';
 import balizas from '../images/portfolio/balizas-v16.webp';
 import personalHistorian from '../images/portfolio/personal-historian.webp';
 import aiJobAgent from '../images/portfolio/ai-job-agent.webp';
+import momentoWow from '../images/portfolio/momentoWow.webp';
 
 import '../style/Portfolio.css';
 import '../style/index.css';
@@ -77,6 +78,19 @@ const PROJECTS = [
         status: 'in-progress',
         links: [
             { labelKey: 'visit', labelDefault: 'Visit ↗', url: 'https://ai-job-agent-chi.vercel.app/' },
+        ],
+	},
+	{
+        key: 'momento-wow',
+        img: momentoWow,
+        alt: 'Momento Wow',
+        title: 'Momento Wow',
+        descKey: 'momento-wow',
+        descDefault: 'Development of event websites with personalized invitations tailored to each client\'s and event\'s requirements.',
+        chips: ['Next.js', 'React', 'TypeScript', 'Claude API', 'OpenAI API', 'Supabase'],
+        status: 'in-progress',
+        links: [
+            { labelKey: 'visit', labelDefault: 'Visit ↗', url: 'https://momento-wow-main.vercel.app/' },
         ],
     },
 ];

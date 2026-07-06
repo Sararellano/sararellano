@@ -6,6 +6,26 @@ import '../style/Experiencia.css';
 import '../style/index.css';
 import '../style/Titulo.css';
 
+const SELECTRA_CHIPS = [
+    'Laravel 12',
+    'Alpine.js',
+    'Tailwind v4',
+    'Blade',
+    'PHP 8.3',
+    'Docker',
+    'GitHub Actions',
+    'Python',
+    'Drupal 10',
+    'SASS/SCSS',
+    'Twig',
+    'Atomic Design',
+    'BEM',
+    'Acquia Cloud',
+    'Playwright',
+    'Sentry',
+    'Datadog',
+];
+
 class Experiencia extends Component {
     render() {
         return (
@@ -24,59 +44,46 @@ class Experiencia extends Component {
                 <Container>
                     <div className="timeline">
 
-                        {/* Selectra — Current Stack */}
+                        {/* Selectra — unified */}
                         <ScrollAnimation animateIn="fadeInUp">
                             <div className="timeline-item">
                                 <div className="timeline-content">
                                     <div className="timeline-header">
                                         <h4 className="timeline-title">
-                                            <span data-section="experience" data-value="exp1title">Frontend Developer</span>
-                                            {' · '}
-                                            <a href="https://selectra.info/" target="_blank" rel="noopener noreferrer">Selectra</a>
+                                            <span data-section="experience" data-value="selectra-title">Frontend Developer — Selectra</span>
                                         </h4>
-                                        <span className="timeline-date" data-section="experience" data-value="exp1date">Oct 2019 — Present</span>
+                                        <span className="timeline-date" data-section="experience" data-value="selectra-date">Oct 2019 — June 2026</span>
                                     </div>
                                     <div className="timeline-body">
-                                        <ul data-section="experience" data-value="exp1bullets">
-                                            <li>I worked on the frontend development of internal CMS powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (Blade, Alpine.js, Tailwind v4)</li>
-                                            <li><strong>Core Web Vitals</strong>: lifted PageSpeed from <strong>57 → 100</strong> on key sites (kelwatt.fr and others)</li>
-                                            <li>Python script that batch-injected width/height into thousands of Blade templates, eliminating structural layout shift</li>
-                                            <li>Git pre-commit hook (via <code>prepare</code> script) to prevent CLS regressions</li>
-                                            <li>External API integrations: <strong>Anthropic Claude API</strong>, Google Search Console, Semrush</li>
-                                            <li>Observability: Sentry, Datadog; testing: Playwright; linting: Laravel Pint</li>
-                                            <li>Mentored <strong>5 junior developers</strong>; led technical interviews and designed evaluation exercises</li>
-                                        </ul>
-                                        <div className="chip-row">
-                                            {['Laravel 12', 'Alpine.js', 'Tailwind v4', 'Blade', 'PHP 8.3', 'Docker', 'GitHub Actions', 'Python'].map(t => (
-                                                <span key={t} className="chip">{t}</span>
-                                            ))}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </ScrollAnimation>
+                                        <p className="timeline-company">
+                                            <a href="https://selectra.info/" target="_blank" rel="noopener noreferrer">selectra.info</a>
+                                        </p>
 
-                        {/* Selectra — Agrippa / Drupal era */}
-                        <ScrollAnimation animateIn="fadeInUp">
-                            <div className="timeline-item">
-                                <div className="timeline-content">
-                                    <div className="timeline-header">
-                                        <h4 className="timeline-title">
-                                            <span data-section="experience" data-value="exp2title">Frontend &amp; Drupal Developer</span>
-                                            {' · '}
-                                            <a href="https://selectra.info/" target="_blank" rel="noopener noreferrer">Selectra — Agrippa</a>
-                                        </h4>
-                                        <span className="timeline-date" data-section="experience" data-value="exp2date">Oct 2019 — 2024</span>
-                                    </div>
-                                    <div className="timeline-body">
-                                        <ul data-section="experience" data-value="exp2bullets">
-                                            <li>Co-built Selectra's in-house <strong>Design System</strong> from scratch following Atomic Design (atoms → templates) using SASS/SCSS, Twig and Vanilla JS</li>
-                                            <li>Custom <strong>Drupal 10 module</strong> development in PHP 8.3 (services, DI, events) and Twig theming with Gulp + Webpack build pipelines</li>
-                                            <li>Sustained <strong>Lighthouse score ≥ 90/100</strong> across all owned pages</li>
-                                            <li>E2E testing on Acquia Cloud + multi-arch Docker (x86/ARM)</li>
+                                        <h5 className="timeline-phase" data-section="experience" data-value="selectra-phase1">
+                                            Laravel CMS &amp; Performance
+                                        </h5>
+                                        <ul data-section="experience" data-value="selectra-bullets1">
+                                            <li>Lead frontend development of internal <strong>CMS</strong> powering <strong>80+ sites</strong> across <strong>50+ departments</strong> on flat-file architecture (<strong>Blade</strong>, <strong>Alpine.js</strong>, <strong>Tailwind v4</strong>)</li>
+                                            <li><strong>Core Web Vitals</strong>: lifted <strong>PageSpeed</strong> from <strong>57 → 100</strong> on key sites (<strong>kelwatt.fr</strong> and others)</li>
+                                            <li><strong>Python script</strong> that batch-injected <strong>width/height</strong> into thousands of <strong>Blade templates</strong>, eliminating structural <strong>layout shift</strong></li>
+                                            <li><strong>Git pre-commit hook</strong> (via <code>prepare</code> script) to prevent <strong>CLS regressions</strong></li>
+                                            <li>External API integrations: <strong>Anthropic Claude API</strong>, <strong>Google Search Console</strong>, <strong>Semrush</strong></li>
+                                            <li><strong>Observability</strong>: Sentry, Datadog; <strong>testing</strong>: Playwright; <strong>linting</strong>: Laravel Pint</li>
+                                            <li>Mentored <strong>5 junior developers</strong>; led <strong>technical interviews</strong> and designed <strong>evaluation exercises</strong></li>
                                         </ul>
+
+                                        <h5 className="timeline-phase" data-section="experience" data-value="selectra-phase2">
+                                            Drupal &amp; Design System
+                                        </h5>
+                                        <ul data-section="experience" data-value="selectra-bullets2">
+                                            <li>Co-built Selectra&apos;s in-house <strong>Design System</strong> from scratch following <strong>Atomic Design</strong> (atoms → templates) using <strong>SASS/SCSS</strong>, <strong>Twig</strong> and <strong>Vanilla JS</strong></li>
+                                            <li>Custom <strong>Drupal 10 module</strong> development in <strong>PHP 8.3</strong> (services, DI, events) and <strong>Twig theming</strong> with <strong>Gulp + Webpack</strong> build pipelines</li>
+                                            <li>Sustained <strong>Lighthouse score ≥ 90/100</strong> across all owned pages</li>
+                                            <li><strong>E2E testing</strong> on <strong>Acquia Cloud</strong> + multi-arch <strong>Docker</strong> (x86/ARM)</li>
+                                        </ul>
+
                                         <div className="chip-row">
-                                            {['Drupal 10', 'PHP 8.3', 'SASS/SCSS', 'Twig', 'Atomic Design', 'BEM', 'Acquia Cloud'].map(t => (
+                                            {SELECTRA_CHIPS.map(t => (
                                                 <span key={t} className="chip">{t}</span>
                                             ))}
                                         </div>
@@ -91,7 +98,7 @@ class Experiencia extends Component {
                                 <div className="timeline-content">
                                     <div className="timeline-header">
                                         <h4 className="timeline-title">
-                                            <span data-section="experience" data-value="exp3title">Junior Frontend Developer</span>
+                                            <span data-section="experience" data-value="exp3title">Frontend Developer</span>
                                             {' · '}
                                             Waavi Studios
                                         </h4>
@@ -99,7 +106,7 @@ class Experiencia extends Component {
                                     </div>
                                     <div className="timeline-body">
                                         <ul data-section="experience" data-value="exp3bullets">
-                                            <li>Web projects with <strong>React.js</strong>, Node.js, Yarn and SASS. Delivered the ESME landing page among other work</li>
+                                            <li>Web projects with <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Yarn</strong> and <strong>SASS</strong>. Delivered the <strong>ESME landing page</strong> among other work</li>
                                             <li>First experience building conversational bots with <strong>DialogFlow</strong></li>
                                         </ul>
                                         <div className="chip-row">
@@ -129,6 +136,11 @@ class Experiencia extends Component {
                                     <li><strong>Solution:</strong> Python script that walked the monorepo and batch-processed thousands of Blade templates, injecting width/height on every {'<img>'} tag; complemented with manual above-the-fold fixes</li>
                                     <li><strong>Prevention:</strong> Git pre-commit hook via <code>prepare</code> script in package.json to block regressions</li>
                                     <li><strong>Outcome:</strong> PageSpeed <span className="achievement-number">57 → 100</span>. Approach is replicable across the full monorepo</li>
+                                    <li>Scaled a <strong>Design System</strong> (<strong>Atomic Design + BEM</strong>) into the standard adopted by <strong>every product team</strong>, not just my own</li>
+                                    <li>Automated the update of <strong>thousands of templates</strong> with <strong>Python</strong> that were previously edited one by one, by hand</li>
+                                    <li>Built <strong>internal tooling</strong> to automate development tasks across our <strong>multi-site monorepo</strong> spanning <strong>50+ international domains</strong></li>
+                                    <li>Mentored <strong>5 junior developers</strong>, several of whom now <strong>lead their own projects</strong></li>
+                                    <li>Outside of work, I build my own <strong>AI-powered tools</strong> to keep learning (see <a href="#portfolio">Projects &amp; Portfolio</a>)</li>
                                 </ul>
                             </div>
                         </div>

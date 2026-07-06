@@ -37,16 +37,10 @@ class SobreMi extends Component {
                                     data-value="description"
                                 >
                                     <p>
-                                        Frontend developer with <strong>8 years of experience</strong> across modern and
-                                        enterprise web stacks. Background built on <strong>Drupal 10</strong> and, more
-                                        recently, <strong>Laravel 12 + Octane</strong> powering a multi-site monorepo of{' '}
-                                        <strong>80+ websites</strong>.
+										<strong>Fullstack</strong> Engineer with 8+ years of experience leading the <strong>frontend</strong> of large-scale CMS platforms (80+ sites, 50+ international domains) at Selectra. Specialized in <strong>JavaScript/TypeScript, React, Next.js, PHP, Drupal and Laravel</strong>, with a recent focus on integrating <strong>AI (Claude API, OpenAI API)</strong> into real products to automate workflows and generate personalized content.
                                     </p>
                                     <p>
-                                        Specialized in web performance (Core Web Vitals), scalable frontend architecture,
-                                        scripting and automation, and technical mentoring.{' '}
-                                        <strong>Full-stack capable</strong>: comfortable making decisions that cross the
-                                        frontend boundary.
+										My background combines advertising with software development, giving me a strong eye for documentation and user-centered product thinking.
                                     </p>
                                 </div>
 
